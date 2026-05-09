@@ -41,10 +41,10 @@ export function TopicRubricView({
         ) : (
           <Card className="story-grid-glow border-white/80">
             <CardContent className="space-y-4 p-8">
-              <p className="text-sm uppercase tracking-[0.25em] text-accent">No rubric yet</p>
+              <p className="text-sm uppercase tracking-[0.25em] text-accent">No learnings yet</p>
               <h3 className="font-serif text-3xl">This topic needs at least 5 real stories first.</h3>
               <p className="max-w-2xl text-base leading-8 text-slateWarm">
-                A rubric only appears when the advice is supported by repeated lived experience. Until then, people can
+                The learnings only appear when the advice is supported by repeated lived experience. Until then, people can
                 still read stories and add their own.
               </p>
             </CardContent>

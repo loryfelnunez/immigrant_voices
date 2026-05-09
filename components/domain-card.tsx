@@ -23,7 +23,7 @@ export function DomainCard({
           <p className="text-sm leading-7 text-slateWarm">{domain.subtitle}</p>
           <div className="flex items-center justify-between text-sm text-slateWarm">
             <span>{storyCount} stor{storyCount === 1 ? "y" : "ies"}</span>
-            <span>{rubricCount > 0 ? "Rubric ready" : "Needs 5 stories"}</span>
+            <span>{rubricCount > 0 ? "Learnings ready" : "Needs 5 stories"}</span>
           </div>
         </CardContent>
       </Card>

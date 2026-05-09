@@ -67,13 +67,13 @@ export function ContributeForm({ initialDomain = DOMAIN }: { initialDomain?: str
         <CardContent className="space-y-6 p-8">
           <div className="space-y-4">
             <p className="text-sm uppercase tracking-[0.25em] text-accent">Thank you</p>
-            <h2 className="font-serif text-4xl">Your story is now part of the rubric.</h2>
+            <h2 className="font-serif text-4xl">Your story is now part of the learnings.</h2>
             <p className="text-lg leading-8 text-slateWarm">
               The next person who needs this will see what you learned.
             </p>
           </div>
           <Button asChild>
-            <Link href={`/topics/${activeDomain.id}`}>Back to the rubric</Link>
+            <Link href={`/topics/${activeDomain.id}`}>Back to the learnings</Link>
           </Button>
         </CardContent>
       </Card>
@@ -144,7 +144,7 @@ export function ContributeForm({ initialDomain = DOMAIN }: { initialDomain?: str
           </label>
           {error ? <p className="text-sm text-red-700">{error}</p> : null}
           <Button disabled={isPending} type="submit">
-            {isPending ? "Adding your story..." : "Add my story to the rubric"}
+            {isPending ? "Adding your story..." : "Add my story to the learnings"}
           </Button>
         </form>
       </CardContent>

@@ -27,7 +27,7 @@ export const DOMAIN_DEFINITIONS: DomainDefinition[] = [
     subtitle: "Finding coverage, urgent care, clinics, and how people learned to navigate the system.",
     contributionPrompt: "What do you wish someone had told you about getting care, insurance, or finding a doctor?",
     rubricTitle: "Navigating US Healthcare as a New Immigrant",
-    heroLine: "A community rubric for finding care, understanding coverage, and avoiding expensive surprises."
+    heroLine: "A community set of learnings for finding care, understanding coverage, and avoiding expensive surprises."
   },
   {
     id: "housing",

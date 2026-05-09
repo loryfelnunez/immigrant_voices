@@ -42,7 +42,7 @@ export default async function TopicPage({
             <p className="text-2xl font-medium leading-9">
               {topicStories.length} stor{topicStories.length === 1 ? "y" : "ies"} feeding this topic so far.
             </p>
-            <p className="text-sm leading-7 text-white/80">A rubric appears only when at least 5 stories support it.</p>
+            <p className="text-sm leading-7 text-white/80">Learnings appear only when at least 5 stories support them.</p>
           </CardContent>
         </Card>
       </section>

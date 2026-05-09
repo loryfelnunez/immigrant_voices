@@ -28,7 +28,7 @@ export default async function StoriesPage({
       <section className="space-y-5">
         <p className="text-sm uppercase tracking-[0.35em] text-accent">Stories</p>
         <h1 className="max-w-3xl font-serif text-5xl leading-tight">
-          These stories are the source. The rubric is what we extract from them.
+          These stories are the source. The learnings are what we extract from them.
         </h1>
         <div className="flex flex-wrap gap-3 text-sm">
           <a className={`rounded-full border px-4 py-2 ${filter === "all" ? "border-accent bg-accent text-white" : "border-border bg-white"}`} href={`/stories?filter=all&domain=${selectedDomain}`}>

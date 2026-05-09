@@ -23,7 +23,7 @@ export default async function HomePage() {
               Converting immigrant stories into shareable community knowledge we all can learn from.
             </p>
             <p className="max-w-xl text-base leading-7 text-slateWarm">
-              Browse the most common topics people struggle with first, then read the rubric built from real stories.
+              Browse the most common topics people struggle with first, then read the learnings built from real stories.
             </p>
           </div>
         </div>
@@ -31,7 +31,7 @@ export default async function HomePage() {
           <CardContent className="space-y-4 p-8">
             <p className="text-sm uppercase tracking-[0.25em] text-white/75">Why this exists</p>
             <p className="text-2xl font-medium leading-9">
-              The stories are the source. The rubric is the part you can reuse.
+              The stories are the source. The learnings are the part you can reuse.
             </p>
           </CardContent>
         </Card>
