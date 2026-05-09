@@ -1,0 +1,32 @@
+[
+  {
+    "id": "rubric-first-credit-card",
+    "domain": "first-credit-card",
+    "title": "Get Your First US Credit Card as a New Immigrant",
+    "steps": [
+      {
+        "id": "d60f256d-6b30-4f16-ae90-d60d3c9a5866",
+        "title": "Apply for a Secured Credit Card",
+        "why": "This step is necessary because new immigrants often have no credit history, and secured credit cards are easier to get approved for, as seen in the stories of Reddit User and u/anonymous, who both successfully built their credit using secured cards.",
+        "sourceStoryIds": [
+          "ecb57032-3548-4081-878e-3e678337cdb6",
+          "3065bcbc-f1d4-4162-b70f-ab944b6f8a39"
+        ],
+        "lastValidatedAt": "2026-05-09T18:43:48.109Z",
+        "contributorCount": 2
+      },
+      {
+        "id": "7ea65564-6b01-4aec-a1c0-a500cf57f912",
+        "title": "Keep the Secured Credit Card for a Year Before Applying for a Non-Secured Card",
+        "why": "This step allows new immigrants to establish a credit history, making it easier to get approved for a non-secured card, as Reddit User was able to do after keeping their secured card for about a year.",
+        "sourceStoryIds": [
+          "ecb57032-3548-4081-878e-3e678337cdb6",
+          "3065bcbc-f1d4-4162-b70f-ab944b6f8a39"
+        ],
+        "lastValidatedAt": "2026-05-09T18:43:48.109Z",
+        "contributorCount": 2
+      }
+    ],
+    "generatedAt": "2026-05-09T18:45:07.736Z"
+  }
+]
