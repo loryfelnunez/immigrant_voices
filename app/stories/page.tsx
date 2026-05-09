@@ -1,14 +1,19 @@
 import { StoryCard } from "@/components/story-card";
+import { DOMAIN_DEFINITIONS, getDomainDefinition } from "@/lib/domains";
 import { getStories } from "@/lib/data-store";
 
 export default async function StoriesPage({
   searchParams
 }: {
-  searchParams?: { filter?: string };
+  searchParams?: { filter?: string; domain?: string };
 }) {
   const stories = await getStories();
   const filter = searchParams?.filter ?? "all";
+  const selectedDomain = searchParams?.domain ?? "all";
   const filteredStories = stories.filter((story) => {
+    if (selectedDomain !== "all" && story.domain !== selectedDomain) {
+      return false;
+    }
     if (filter === "web") {
       return story.isSeeded;
     }
@@ -26,15 +31,29 @@ export default async function StoriesPage({
           These stories are the source. The rubric is what we extract from them.
         </h1>
         <div className="flex flex-wrap gap-3 text-sm">
-          <a className={`rounded-full border px-4 py-2 ${filter === "all" ? "border-accent bg-accent text-white" : "border-border bg-white"}`} href="/stories?filter=all">
+          <a className={`rounded-full border px-4 py-2 ${filter === "all" ? "border-accent bg-accent text-white" : "border-border bg-white"}`} href={`/stories?filter=all&domain=${selectedDomain}`}>
             Show all
           </a>
-          <a className={`rounded-full border px-4 py-2 ${filter === "web" ? "border-accent bg-accent text-white" : "border-border bg-white"}`} href="/stories?filter=web">
+          <a className={`rounded-full border px-4 py-2 ${filter === "web" ? "border-accent bg-accent text-white" : "border-border bg-white"}`} href={`/stories?filter=web&domain=${selectedDomain}`}>
             Web-sourced only
           </a>
-          <a className={`rounded-full border px-4 py-2 ${filter === "contributed" ? "border-accent bg-accent text-white" : "border-border bg-white"}`} href="/stories?filter=contributed">
+          <a className={`rounded-full border px-4 py-2 ${filter === "contributed" ? "border-accent bg-accent text-white" : "border-border bg-white"}`} href={`/stories?filter=contributed&domain=${selectedDomain}`}>
             Contributed only
           </a>
+        </div>
+        <div className="flex flex-wrap gap-3 text-sm">
+          <a className={`rounded-full border px-4 py-2 ${selectedDomain === "all" ? "border-accent bg-accent text-white" : "border-border bg-white"}`} href={`/stories?filter=${filter}&domain=all`}>
+            All topics
+          </a>
+          {DOMAIN_DEFINITIONS.map((domain) => (
+            <a
+              key={domain.id}
+              className={`rounded-full border px-4 py-2 ${selectedDomain === domain.id ? "border-accent bg-accent text-white" : "border-border bg-white"}`}
+              href={`/stories?filter=${filter}&domain=${domain.id}`}
+            >
+              {domain.label}
+            </a>
+          ))}
         </div>
       </section>
 

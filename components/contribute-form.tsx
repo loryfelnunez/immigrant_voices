@@ -5,6 +5,8 @@ import Link from "next/link";
 
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { DOMAIN_DEFINITIONS, getDomainDefinition } from "@/lib/domains";
+import { DOMAIN } from "@/lib/schemas";
 
 const countryOptions = [
   "Prefer not to say",
@@ -19,7 +21,8 @@ const countryOptions = [
   "Other"
 ];
 
-export function ContributeForm() {
+export function ContributeForm({ initialDomain = DOMAIN }: { initialDomain?: string }) {
+  const activeDomain = getDomainDefinition(initialDomain);
   const [isPending, startTransition] = useTransition();
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -33,6 +36,7 @@ export function ContributeForm() {
     const country = formData.get("countryOfOrigin");
 
     const payload = {
+      domain: String(formData.get("domain") || DOMAIN).trim(),
       contributorName: String(formData.get("contributorName") || "").trim(),
       countryOfOrigin:
         !country || country === "Prefer not to say" ? null : String(country),
@@ -69,7 +73,7 @@ export function ContributeForm() {
             </p>
           </div>
           <Button asChild>
-            <Link href="/">Back to the rubric</Link>
+            <Link href={`/topics/${activeDomain.id}`}>Back to the rubric</Link>
           </Button>
         </CardContent>
       </Card>
@@ -81,6 +85,20 @@ export function ContributeForm() {
       <CardContent className="p-8">
         <form className="space-y-8" onSubmit={handleSubmit}>
           <div className="grid gap-6 md:grid-cols-2">
+            <label className="space-y-2">
+              <span className="text-sm font-medium text-foreground">Topic</span>
+              <select
+                className="w-full rounded-2xl border border-border bg-white px-4 py-3 outline-none transition focus:border-accent"
+                name="domain"
+                defaultValue={activeDomain.id}
+              >
+                {DOMAIN_DEFINITIONS.map((domain) => (
+                  <option key={domain.id} value={domain.id}>
+                    {domain.label}
+                  </option>
+                ))}
+              </select>
+            </label>
             <label className="space-y-2">
               <span className="text-sm font-medium text-foreground">First name or chosen handle</span>
               <input
@@ -120,7 +138,7 @@ export function ContributeForm() {
             <textarea
               className="min-h-56 w-full rounded-[28px] border border-border bg-white px-5 py-4 outline-none transition focus:border-accent"
               name="storyText"
-              placeholder="What worked? What didn't? What was the move that finally clicked?"
+              placeholder={activeDomain.contributionPrompt}
               required
             />
           </label>

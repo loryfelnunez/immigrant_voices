@@ -2,15 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  :root {
+    --iv-ink: #1f1a17;
+    --iv-paper: #faf6ef;
+    --iv-accent: #c75d45;
+    --iv-gold: #d7b36a;
+    --iv-blue: #5a7aa6;
+  }
+
+  * {
+    @apply border-border;
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  color: #1f1a17;
-  background: #faf9f6;
+  color: var(--iv-ink);
+  background:
+    radial-gradient(circle at top left, rgba(199, 93, 69, 0.16), transparent 28%),
+    radial-gradient(circle at top right, rgba(90, 122, 166, 0.14), transparent 24%),
+    linear-gradient(180deg, #fffaf4 0%, #faf6ef 38%, #f7f0e8 100%);
+  background-attachment: fixed;
 }
 
 ::selection {
   background: rgba(199, 93, 69, 0.2);
+}
+
+.story-grid-glow {
+  background:
+    linear-gradient(135deg, rgba(215, 179, 106, 0.12), transparent 50%),
+    linear-gradient(315deg, rgba(199, 93, 69, 0.08), transparent 45%);
 }

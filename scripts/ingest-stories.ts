@@ -4,8 +4,9 @@ import path from "node:path";
 import dotenv from "dotenv";
 
 import { getSources, getStories, saveSources, saveStories } from "@/lib/data-store";
-import { curatedQueries, searchTavily } from "@/lib/tavily";
-import { extractedStorySchema, storySchema, sourceSchema, DOMAIN, type Source } from "@/lib/schemas";
+import { domainQueries, getDomainDefinition } from "@/lib/domains";
+import { searchTavily } from "@/lib/tavily";
+import { extractedStorySchema, storySchema, sourceSchema, domainSchema, DOMAIN, type DomainId, type Source } from "@/lib/schemas";
 import { getTogetherClient, getTogetherModel } from "@/lib/together";
 
 dotenv.config({ path: path.join(process.cwd(), ".env.local") });
@@ -20,16 +21,47 @@ function parseLimit() {
   return Number.isFinite(value) ? value : null;
 }
 
-function buildExtractionPrompt(source: Source) {
+function parseDomain() {
+  const flagIndex = process.argv.findIndex((arg) => arg === "--domain");
+  if (flagIndex === -1) {
+    return DOMAIN;
+  }
+
+  return domainSchema.parse(process.argv[flagIndex + 1]);
+}
+
+function parseMaxStories() {
+  const flagIndex = process.argv.findIndex((arg) => arg === "--max-stories");
+  if (flagIndex === -1) {
+    return 10;
+  }
+
+  const value = Number(process.argv[flagIndex + 1]);
+  if (!Number.isFinite(value)) {
+    return 10;
+  }
+
+  return Math.max(1, Math.min(10, value));
+}
+
+function buildExtractionPrompt(domain: DomainId, source: Source) {
+  const domainDefinition = getDomainDefinition(domain);
+
   return `
 You are cleaning raw web content into a structured immigrant story.
 
 Rules:
 - Extract the first-person narrative if there is one.
 - Focus on the original poster and any clearly first-person account.
-- Skip the content if it is not a first-person immigrant story about getting a first US credit card.
+- Skip the content if it is not a first-person immigrant story about ${domainDefinition.label.toLowerCase()} in the United States.
 - Infer countryOfOrigin and arrivalYear only if explicitly stated. Otherwise use null.
 - Preserve specific details like banks, cards, dollar amounts, and timelines.
+- Extract structured details that would help the next person:
+  - mentionedOrganizations: banks, insurers, government agencies, employers, landlords, schools, clinics, platforms
+  - productsOrServices: card names, insurance plans, portals, apps, account types, marketplaces, clinics
+  - documentsMentioned: SSN, ITIN, lease, pay stubs, passport, visa, state ID, utility bill, etc.
+  - feesOrAmounts: dollar amounts, deposits, annual fees, premiums, broker fees, balances
+  - keyDetails: short factual bullets that do not fit neatly in the categories above
 - Keep the cleaned story between 100 and 250 words.
 - Generate contributorName from the page if possible. If unavailable, use a neutral first-name placeholder.
 
@@ -41,7 +73,12 @@ or
   "contributorName": "string",
   "countryOfOrigin": "string or null",
   "arrivalYear": 2023 or null,
-  "storyText": "string"
+  "storyText": "string",
+  "keyDetails": ["string", "string"],
+  "mentionedOrganizations": ["string", "string"],
+  "productsOrServices": ["string", "string"],
+  "documentsMentioned": ["string", "string"],
+  "feesOrAmounts": ["string", "string"]
 }
 
 Title: ${source.title}
@@ -55,14 +92,23 @@ ${source.rawContent}
 
 async function main() {
   const limit = parseLimit();
+  const domain = parseDomain();
+  const maxStories = parseMaxStories();
   const together = getTogetherClient();
 
   const existingSources = await getSources();
   const existingStories = await getStories();
+  const existingDomainStoryCount = existingStories.filter((story) => story.domain === domain).length;
   const sourceByUrl = new Map(existingSources.map((source) => [source.url, source]));
   const storyBySourceId = new Map(existingStories.map((story) => [story.sourceId, story]));
 
-  const queries = limit ? curatedQueries.slice(0, limit) : curatedQueries;
+  if (existingDomainStoryCount >= maxStories) {
+    console.log(`Domain ${domain} already has ${existingDomainStoryCount} stories. Max is ${maxStories}.`);
+    return;
+  }
+
+  const domainSpecificQueries = domainQueries[domain];
+  const queries = limit ? domainSpecificQueries.slice(0, limit) : domainSpecificQueries;
   const newSources: Source[] = [];
 
   for (const query of queries) {
@@ -96,6 +142,11 @@ async function main() {
   const newStories = [...existingStories];
 
   for (const source of newSources) {
+    const currentDomainCount = newStories.filter((story) => story.domain === domain).length;
+    if (currentDomainCount >= maxStories) {
+      break;
+    }
+
     if (storyBySourceId.has(source.id)) {
       continue;
     }
@@ -110,7 +161,7 @@ async function main() {
         },
         {
           role: "user",
-          content: buildExtractionPrompt(source)
+          content: buildExtractionPrompt(domain, source)
         }
       ]
     });
@@ -135,7 +186,12 @@ async function main() {
       countryOfOrigin: parsed.countryOfOrigin,
       arrivalYear: parsed.arrivalYear,
       storyText: parsed.storyText,
-      domain: DOMAIN,
+      keyDetails: parsed.keyDetails,
+      mentionedOrganizations: parsed.mentionedOrganizations,
+      productsOrServices: parsed.productsOrServices,
+      documentsMentioned: parsed.documentsMentioned,
+      feesOrAmounts: parsed.feesOrAmounts,
+      domain,
       sourceId: source.id,
       sourceUrl: source.url,
       submittedAt: source.fetchedAt,
@@ -149,6 +205,7 @@ async function main() {
 
   await saveStories(newStories);
 
+  console.log(`Domain: ${domain}`);
   console.log(`Queries run: ${queries.length}`);
   console.log(`New sources fetched: ${newSources.length}`);
   console.log(`Stories produced: ${produced}`);

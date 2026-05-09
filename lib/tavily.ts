@@ -8,19 +8,6 @@ export function getTavilyApiKey() {
   return apiKey;
 }
 
-export const curatedQueries = [
-  "\"first credit card\" immigrant USA reddit no credit history",
-  "\"I wish I had known\" credit card new immigrant America",
-  "secured credit card immigrant story experience reddit",
-  "Nova Credit immigrant first credit card review",
-  "building credit from scratch immigrant USA personal story",
-  "ITIN credit card application experience immigrant",
-  "authorized user immigrant build credit story",
-  "\"moved to the US\" first credit card reddit startup immigrant",
-  "\"new to America\" secured card personal story immigrant",
-  "\"first credit score\" immigrant credit card forum story"
-];
-
 export const preferredDomains = [
   "reddit.com",
   "quora.com",

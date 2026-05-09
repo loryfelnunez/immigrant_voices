@@ -9,10 +9,12 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "#faf9f6",
+        background: "#faf6ef",
         foreground: "#1f1a17",
         accent: "#c75d45",
         accentSoft: "#f1ddd6",
+        accentGold: "#d7b36a",
+        accentBlue: "#5a7aa6",
         slateWarm: "#655b56",
         card: "#fffdf9",
         border: "#eadfd7",
@@ -36,7 +38,8 @@ const config: Config = {
         ]
       },
       boxShadow: {
-        card: "0 18px 45px -24px rgba(86, 63, 45, 0.35)"
+        card: "0 24px 60px -26px rgba(86, 63, 45, 0.38)",
+        float: "0 30px 80px -34px rgba(61, 40, 24, 0.35)"
       }
     }
   },

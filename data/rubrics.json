@@ -28,5 +28,203 @@
       }
     ],
     "generatedAt": "2026-05-09T18:45:07.736Z"
+  },
+  {
+    "id": "rubric-healthcare",
+    "domain": "healthcare",
+    "title": "Navigate the US Healthcare System as an Immigrant",
+    "steps": [
+      {
+        "id": "bdb3b1f0-d287-4c93-ab23-d97fb0b792cf",
+        "title": "Research Healthcare Options",
+        "why": "Understanding the available healthcare options is crucial to make informed decisions, as seen in the stories of contributors who had to navigate the system for themselves or their family members, such as ValourWinds (cb455dc0-b125-4cba-b7b1-d6debea40294) and KeepCalmEtAllonsy (2dc01a06-8bf7-4ddd-a7d9-82aff33af221)",
+        "sourceStoryIds": [
+          "cb455dc0-b125-4cba-b7b1-d6debea40294",
+          "2dc01a06-8bf7-4ddd-a7d9-82aff33af221"
+        ],
+        "lastValidatedAt": "2026-05-09T19:39:18.495Z",
+        "contributorCount": 2
+      },
+      {
+        "id": "13303db6-01e3-4966-befb-219a99f0926e",
+        "title": "Verify In-Network Providers",
+        "why": "Verifying that a provider is in-network is essential to avoid unexpected medical bills, as emphasized by contributor u/expat (db15eeb3-6260-40a7-8dd6-da9013f2aba5) and relevant to the experiences of other contributors",
+        "sourceStoryIds": [
+          "db15eeb3-6260-40a7-8dd6-da9013f2aba5",
+          "2dc01a06-8bf7-4ddd-a7d9-82aff33af221"
+        ],
+        "lastValidatedAt": "2026-05-09T19:39:22.425Z",
+        "contributorCount": 2
+      }
+    ],
+    "generatedAt": "2026-05-09T19:55:38.551Z"
+  },
+  {
+    "id": "rubric-housing",
+    "domain": "housing",
+    "title": "Navigate Housing in the United States as an Immigrant",
+    "steps": [
+      {
+        "id": "e210d6ea-cdbc-45df-b4af-6a560b3b358e",
+        "title": "Establish a Temporary Housing Solution",
+        "why": "Many immigrants face challenges in renting a place due to lack of US credit history, and it takes 3-6 months to establish a credit score. A temporary housing solution can help bridge this gap.",
+        "sourceStoryIds": [
+          "d2a47dfd-5a2a-4fe7-a118-779c3cba3bb7",
+          "2f1591b3-ca53-4cf2-91a5-c10ecb432061",
+          "b2028137-4fa2-4607-a44d-c77526b769f5"
+        ],
+        "lastValidatedAt": "2026-05-09T19:45:34.033Z",
+        "contributorCount": 3
+      },
+      {
+        "id": "7037bda4-7bb4-45f3-9f92-b925f399e87f",
+        "title": "Explore Alternative Rental Options",
+        "why": "Immigrants without credit history or proof of income may need to consider alternative rental options, such as offering extra deposit or upfront rent, subletting, or paying a guarantor service.",
+        "sourceStoryIds": [
+          "6f127ad9-6bc5-4fe3-838f-e6f4bde4884f",
+          "d2a9efe3-d024-4229-9b3a-563eca40285c",
+          "3d212e6a-1a52-4d45-80eb-0f5367c336f2"
+        ],
+        "lastValidatedAt": "2026-05-09T19:45:34.034Z",
+        "contributorCount": 3
+      },
+      {
+        "id": "87a2f3f7-757a-4b8d-abfd-5e095c1de3c8",
+        "title": "Be Prepared for Broker Fees",
+        "why": "Broker fees can be high in cities like NYC, and immigrants should be prepared to pay these fees when renting an apartment.",
+        "sourceStoryIds": [
+          "d636d7ca-91de-4bab-ad9f-72e3cedf9f37",
+          "611aa51c-d141-4b3a-9cdc-22cf412a41c0"
+        ],
+        "lastValidatedAt": "2026-05-09T19:45:38.125Z",
+        "contributorCount": 2
+      }
+    ],
+    "generatedAt": "2026-05-09T19:56:02.792Z"
+  },
+  {
+    "id": "rubric-jobs",
+    "domain": "jobs",
+    "title": "Finding Your First US Job",
+    "steps": [
+      {
+        "id": "7a3de9e5-c34a-4aa2-8866-40c43883af20",
+        "title": "Start with the first concrete step people used for jobs",
+        "why": "Until the model finds stronger repeated patterns, the safest shared lesson is the first move multiple contributors actually took rather than generic advice.",
+        "sourceStoryIds": [
+          "b4dbf6e2-a2ba-448d-8c84-11b6f3fdcf8a",
+          "29964739-187a-454c-81c7-4845710fe587",
+          "2e1b8c77-b1f6-409f-b09b-0a87be2218b6",
+          "e528a23f-7c9e-4d3e-8ed7-408c9ed0a5e5",
+          "1c3b3dc3-c330-4aa9-a559-a97efea03c89",
+          "45914d33-f616-4eb6-a3c8-427dfdc527cb",
+          "fcd9afd6-c47a-4a1c-adbb-c4fe6595062e",
+          "692ed130-4ae3-4f9b-ba7b-335e62dde7ca",
+          "00e15d4a-aa9f-4ca3-a426-8c5ffc42f444",
+          "db637901-7c61-4f5b-ad13-68af3161e69b"
+        ],
+        "lastValidatedAt": "2026-05-09T19:48:14.670Z",
+        "contributorCount": 10
+      }
+    ],
+    "generatedAt": "2026-05-09T19:56:32.040Z"
+  },
+  {
+    "id": "rubric-banking",
+    "domain": "banking",
+    "title": "Navigating Banking in the United States as an Immigrant",
+    "steps": [
+      {
+        "id": "b31884e3-ccff-4888-b44b-328159cc060c",
+        "title": "Obtain a Social Security Number",
+        "why": "Having a Social Security Number (SSN) is crucial for opening a bank account in the US, as many banks require it for verification purposes. Without an SSN, immigrants may face difficulties in opening a bank account, as seen in stories bf1791cf-556d-4639-b316-05ba6e7b8ff5 and 461e77e4-2da4-4e60-99bb-a3c02cf4f31b.",
+        "sourceStoryIds": [
+          "bf1791cf-556d-4639-b316-05ba6e7b8ff5",
+          "461e77e4-2da4-4e60-99bb-a3c02cf4f31b",
+          "2d797a4c-c5c4-48a5-b364-ad9839cfa85e"
+        ],
+        "lastValidatedAt": "2026-05-09T19:50:23.491Z",
+        "contributorCount": 3
+      },
+      {
+        "id": "297ce076-94a7-4ff2-b9c5-c41abcfa4c37",
+        "title": "Choose a Bank with Immigrant-Friendly Policies",
+        "why": "Some banks have more immigrant-friendly policies than others, making it easier for newcomers to open an account. Chase, for example, allows international students to open an account with just an I-20 and passport, as seen in story b4763617-d615-467d-b8b2-91012b3bd56b.",
+        "sourceStoryIds": [
+          "b4763617-d615-467d-b8b2-91012b3bd56b",
+          "2d797a4c-c5c4-48a5-b364-ad9839cfa85e"
+        ],
+        "lastValidatedAt": "2026-05-09T19:50:42.384Z",
+        "contributorCount": 2
+      },
+      {
+        "id": "ebf2a123-12b8-490a-b13e-68cfdd57ccc2",
+        "title": "Be Aware of Fees and Transfer Options",
+        "why": "Understanding the fees associated with banking services, such as ATM fees and transfer fees, can help immigrants make informed decisions about their banking needs. Services like Transferwise may offer better pricing for international transfers, as seen in story b2c59749-4845-4c59-aee0-1413c55261c9.",
+        "sourceStoryIds": [
+          "b2c59749-4845-4c59-aee0-1413c55261c9",
+          "343fc0ce-c8bf-44ef-a87a-69da534a7f80"
+        ],
+        "lastValidatedAt": "2026-05-09T19:50:47.899Z",
+        "contributorCount": 2
+      }
+    ],
+    "generatedAt": "2026-05-09T19:57:00.611Z"
+  },
+  {
+    "id": "rubric-legal-paperwork",
+    "domain": "legal-paperwork",
+    "title": "Navigating Legal Paperwork in the United States",
+    "steps": [
+      {
+        "id": "e85dd968-e355-4d6e-882c-fd097f0c4d70",
+        "title": "Apply for an ITIN if You Don't Have an SSN",
+        "why": "This is necessary for undocumented immigrants or those who don't have an SSN to work and pay taxes, as seen in stories from contributors who had to apply for an ITIN to work as independent contractors or file taxes.",
+        "sourceStoryIds": [
+          "5cf402e3-740a-4e72-8763-78340b142263",
+          "33b874a8-c526-4b82-bce3-6fc59ba9fc5c",
+          "394e67fa-33d0-42bc-b8cb-f06f7db2a265"
+        ],
+        "lastValidatedAt": "2026-05-09T19:53:13.271Z",
+        "contributorCount": 3
+      },
+      {
+        "id": "a7830d30-9060-4cb7-a9a4-19ea61f2c5a7",
+        "title": "Gather Required Documents for SSN or ITIN Application",
+        "why": "Contributors mentioned the importance of having the correct documents, such as passports, I-94, and visas, to apply for an SSN or ITIN, and that updated documents may be required in some cases.",
+        "sourceStoryIds": [
+          "4c223edf-daab-4733-a777-7303d82e88d5",
+          "33b874a8-c526-4b82-bce3-6fc59ba9fc5c",
+          "17b86bfa-a97c-451a-8b12-3d16f9c9339a"
+        ],
+        "lastValidatedAt": "2026-05-09T19:53:25.994Z",
+        "contributorCount": 3
+      },
+      {
+        "id": "1f0a4c32-584b-4dd8-b8eb-da112216172a",
+        "title": "Be Prepared for Delays in the SSN Application Process",
+        "why": "Several contributors experienced delays in their SSN applications, including waiting up to 4 weeks for an appointment and dealing with issues like the SAVE case status being updated to 'Case Returned to Agency'.",
+        "sourceStoryIds": [
+          "ebe99e47-2b44-479d-80a8-1497c5e0f3d2",
+          "d9025bf5-d7bf-4b7b-88b8-5cfc3dcfaaa9",
+          "fae28dfc-8f7c-44e3-a156-a5b64821a004"
+        ],
+        "lastValidatedAt": "2026-05-09T19:52:58.461Z",
+        "contributorCount": 3
+      },
+      {
+        "id": "20f744b9-53bb-4999-ab2f-67b65493dad9",
+        "title": "Understand the Difference Between SSN and ITIN for Employment",
+        "why": "Contributors noted that having an ITIN allows for independent contracting and freelance work, but may not be sufficient for W-9 employment, highlighting the importance of understanding the differences between SSN and ITIN for employment purposes.",
+        "sourceStoryIds": [
+          "5cf402e3-740a-4e72-8763-78340b142263",
+          "394e67fa-33d0-42bc-b8cb-f06f7db2a265",
+          "72b3820c-1c32-49d6-9a45-3cf67078460a"
+        ],
+        "lastValidatedAt": "2026-05-09T19:53:13.271Z",
+        "contributorCount": 3
+      }
+    ],
+    "generatedAt": "2026-05-09T19:57:44.776Z"
   }
 ]

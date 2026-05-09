@@ -3,7 +3,7 @@ import { NextRequest, NextResponse } from "next/server";
 
 import { getStories, saveStories } from "@/lib/data-store";
 import { extractRubric } from "@/lib/rubric";
-import { contributeSchema, DOMAIN, storySchema } from "@/lib/schemas";
+import { contributeSchema, storySchema } from "@/lib/schemas";
 
 export async function POST(request: NextRequest) {
   try {
@@ -16,7 +16,7 @@ export async function POST(request: NextRequest) {
       countryOfOrigin: payload.countryOfOrigin,
       arrivalYear: payload.arrivalYear,
       storyText: payload.storyText,
-      domain: DOMAIN,
+      domain: payload.domain,
       sourceId: `contribution-${Date.now()}`,
       sourceUrl: "http://localhost:3000/contribute",
       submittedAt: new Date().toISOString(),
@@ -27,7 +27,7 @@ export async function POST(request: NextRequest) {
 
     let rubric = null;
     try {
-      rubric = await extractRubric(DOMAIN);
+      rubric = await extractRubric(payload.domain);
     } catch (error) {
       console.warn("Rubric extraction skipped after contribution:", error);
     }

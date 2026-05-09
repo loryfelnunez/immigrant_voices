@@ -5,6 +5,11 @@
     "countryOfOrigin": null,
     "arrivalYear": null,
     "storyText": "I'm new to the US, basically a new immigrant, and I have zero credit history. Since I got my green card and social security, I applied for over 15 credit cards, but all got rejected because I have no credit history. I'm looking for tips on how to get my first credit card.",
+    "keyDetails": [],
+    "mentionedOrganizations": [],
+    "productsOrServices": [],
+    "documentsMentioned": [],
+    "feesOrAmounts": [],
     "domain": "first-credit-card",
     "sourceId": "baf164b8-f1cd-452f-80bf-2ceb87cd30bd",
     "sourceUrl": "https://www.reddit.com/r/CreditCards/comments/1r53wyz/im_new_to_the_us_basically_a_new_immigrant_i_have/",
@@ -17,6 +22,11 @@
     "countryOfOrigin": null,
     "arrivalYear": null,
     "storyText": "I've come to the U.S. on a work visa and don't have any credit history. I need a credit card to build credit. My income is $56,000, and my average monthly spend is $200 on dining, $400 on groceries, $100 on gas, $100 on travel, and $30 on other expenses. I'm looking for a general spending card to build credit.",
+    "keyDetails": [],
+    "mentionedOrganizations": [],
+    "productsOrServices": [],
+    "documentsMentioned": [],
+    "feesOrAmounts": [],
     "domain": "first-credit-card",
     "sourceId": "cd105740-58e3-42ba-a895-ab10910ac074",
     "sourceUrl": "https://www.reddit.com/r/CreditCards/comments/1e6b4xc/credit_card_recommendations_for_foreigner_with_no/",
@@ -29,6 +39,11 @@
     "countryOfOrigin": null,
     "arrivalYear": null,
     "storyText": "I’m an international student in the USA on a F-1 visa trying to build my credit score. I got rejected by Discover already and they didn’t specify a reason. I'm looking for companies that would grant a credit card to an international student.",
+    "keyDetails": [],
+    "mentionedOrganizations": [],
+    "productsOrServices": [],
+    "documentsMentioned": [],
+    "feesOrAmounts": [],
     "domain": "first-credit-card",
     "sourceId": "e31dbcbc-c11a-4113-96df-b90076d22366",
     "sourceUrl": "https://www.reddit.com/r/CreditCards/comments/afdouk/credit_card_for_international_student/",
@@ -41,6 +56,11 @@
     "countryOfOrigin": null,
     "arrivalYear": null,
     "storyText": "I started with the Capital One Quicksilver since it had 0 foreign transaction fees, but any of the other cards available should be fine. I had just moved to the US and was looking for the best route for a credit card as a new immigrant.",
+    "keyDetails": [],
+    "mentionedOrganizations": [],
+    "productsOrServices": [],
+    "documentsMentioned": [],
+    "feesOrAmounts": [],
     "domain": "first-credit-card",
     "sourceId": "1f09f4c7-7038-4ef5-bcf9-e609d834d467",
     "sourceUrl": "https://www.reddit.com/r/expats/comments/1qx6l7p/just_moved_to_the_us_an_hour_ago_whats_the_best/",
@@ -53,6 +73,11 @@
     "countryOfOrigin": null,
     "arrivalYear": null,
     "storyText": "I got a $200 secured credit card through my bank. I kept it for about a year and then applied for a non-secured card. This approach worked for me as a new immigrant in the USA.",
+    "keyDetails": [],
+    "mentionedOrganizations": [],
+    "productsOrServices": [],
+    "documentsMentioned": [],
+    "feesOrAmounts": [],
     "domain": "first-credit-card",
     "sourceId": "bc6d57fb-be2c-42d6-9222-dbaaf03d5326",
     "sourceUrl": "https://www.reddit.com/r/personalfinance/comments/1lt8eag/a_good_credit_card_for_new_immigrant_in_usa/",
@@ -65,10 +90,1224 @@
     "countryOfOrigin": null,
     "arrivalYear": null,
     "storyText": "I am an immigrant and started with a $300 secured card. I was able to get a house and a car with below 3% interest. Secured card is definitely the way to go for building credit as a new immigrant to the US.",
+    "keyDetails": [],
+    "mentionedOrganizations": [],
+    "productsOrServices": [],
+    "documentsMentioned": [],
+    "feesOrAmounts": [],
     "domain": "first-credit-card",
     "sourceId": "d1a5f4da-e0a0-4730-89b7-24de415acc50",
     "sourceUrl": "https://www.reddit.com/r/MoneyDiariesACTIVE/comments/s8u8wv/building_credit_as_new_immigrant_to_us/",
     "submittedAt": "2026-05-09T18:43:48.109Z",
+    "isSeeded": true
+  },
+  {
+    "id": "cb455dc0-b125-4cba-b7b1-d6debea40294",
+    "contributorName": "ValourWinds",
+    "countryOfOrigin": "Canada",
+    "arrivalYear": null,
+    "storyText": "I'm a Canadian considering moving to the US for a job offer, but I'm deterred by the healthcare system. I'm used to free healthcare provided by taxes in Canada, and the thought of facing enormous medical bills in the US is a concern. I'd like to hear from other Canadians who have made the transition and their experiences with healthcare in the US.",
+    "keyDetails": [
+      "Job offer in New York or California",
+      "Concerns about unexpected health concerns and medical bills"
+    ],
+    "mentionedOrganizations": [],
+    "productsOrServices": [],
+    "documentsMentioned": [],
+    "feesOrAmounts": [],
+    "domain": "healthcare",
+    "sourceId": "a990f5b4-b0ca-448f-b8ae-e415856908da",
+    "sourceUrl": "https://www.reddit.com/r/expats/comments/10pbzmd/moving_to_the_us_in_spite_of_health_care/",
+    "submittedAt": "2026-05-09T19:39:18.495Z",
+    "isSeeded": true
+  },
+  {
+    "id": "c5c286aa-df2b-457f-a05d-d20ae3389ec6",
+    "contributorName": "perroperocarrocaro",
+    "countryOfOrigin": null,
+    "arrivalYear": null,
+    "storyText": "I'm a nurse from a non-English speaking country, working in the US. I'm struggling with the language barrier and feeling overwhelmed during my hospital orientation. I've been a nurse for over 5 years in my home country, but speaking up and understanding conversations is exhausting.",
+    "keyDetails": [
+      "Non-English speaking country of origin",
+      "Over 5 years of nursing experience",
+      "Struggling with language barrier in the US"
+    ],
+    "mentionedOrganizations": [
+      "Hospital"
+    ],
+    "productsOrServices": [],
+    "documentsMentioned": [],
+    "feesOrAmounts": [],
+    "domain": "healthcare",
+    "sourceId": "1e422a7c-c7b2-4a36-b291-478611a3e948",
+    "sourceUrl": "https://www.reddit.com/r/nursing/comments/1mebwcn/feeling_overwhelmed_as_a_new_immigrant_nurse_in/",
+    "submittedAt": "2026-05-09T19:39:18.495Z",
+    "isSeeded": true
+  },
+  {
+    "id": "2dc01a06-8bf7-4ddd-a7d9-82aff33af221",
+    "contributorName": "KeepCalmEtAllonsy",
+    "countryOfOrigin": "India",
+    "arrivalYear": null,
+    "storyText": "I'm sponsoring my senior parents' green card application. They have interest income and potential rental income of $15k-20k per year from India. They don't have major health issues. I'm looking for healthcare options for them in Illinois.",
+    "keyDetails": [
+      "Parents have income from India",
+      "No major health issues",
+      "Looking for healthcare options in Illinois"
+    ],
+    "mentionedOrganizations": [
+      "USCIS",
+      "ACA",
+      "Illinois HBIS program"
+    ],
+    "productsOrServices": [
+      "Marketplace health insurance",
+      "Visitor's insurance"
+    ],
+    "documentsMentioned": [
+      "Green card",
+      "Tax returns"
+    ],
+    "feesOrAmounts": [
+      "$15k-20k per year",
+      "Federal poverty line"
+    ],
+    "domain": "healthcare",
+    "sourceId": "de486ebd-f8d4-4cdd-b5bd-5b8a9b2727b2",
+    "sourceUrl": "https://www.reddit.com/r/immigration/comments/1ceew8s/senior_parents_immigrating_to_the_us_need_help/",
+    "submittedAt": "2026-05-09T19:39:18.495Z",
+    "isSeeded": true
+  },
+  {
+    "id": "db15eeb3-6260-40a7-8dd6-da9013f2aba5",
+    "contributorName": "u/expat",
+    "countryOfOrigin": "Canada",
+    "arrivalYear": null,
+    "storyText": "I'm a Canadian moving to the US and acclimatizing to the new private health care system. One rule of navigating the system is that as the patient, I'm responsible for verifying that a provider is in-network.",
+    "keyDetails": [
+      "Patient is responsible for verifying in-network providers"
+    ],
+    "mentionedOrganizations": [],
+    "productsOrServices": [],
+    "documentsMentioned": [],
+    "feesOrAmounts": [],
+    "domain": "healthcare",
+    "sourceId": "2eb83d08-ffeb-4b0b-b8d1-0c0613afdcc0",
+    "sourceUrl": "https://www.reddit.com/r/expats/comments/1rjz9l5/canadian_moving_to_the_us_acclimatizing_to_new/",
+    "submittedAt": "2026-05-09T19:39:22.425Z",
+    "isSeeded": true
+  },
+  {
+    "id": "c4f0b3f3-387f-43d2-9ad0-5a6d7012be83",
+    "contributorName": "Nelson A Paguyo",
+    "countryOfOrigin": "Philippines",
+    "arrivalYear": 1963,
+    "storyText": "I'm a retired physician with over 40 years of experience, having emigrated from the Philippines in 1963. I've witnessed the evolution of healthcare in the US from a focus on patient care to a business-oriented approach. I've recently republished my book, 'Healthcare for All Americans', which proposes a universal healthcare plan combining Medicare for All with free-market elements.",
+    "keyDetails": [
+      "40+ years of medical experience",
+      "Emigrated from the Philippines in 1963",
+      "Specialized in Pulmonology and internal medicine",
+      "20 years in solo practice, 13 years in an HMO"
+    ],
+    "mentionedOrganizations": [
+      "Medicare",
+      "HMO",
+      "Doximity",
+      "Amazon",
+      "GoodReads"
+    ],
+    "productsOrServices": [
+      "Healthcare for All Americans",
+      "Medicare for All"
+    ],
+    "documentsMentioned": [
+      "Book: Healthcare for All Americans"
+    ],
+    "feesOrAmounts": [],
+    "domain": "healthcare",
+    "sourceId": "80e29602-8bff-4b47-97ec-1a5c8e7a78c4",
+    "sourceUrl": "https://www.reddit.com/r/IAmA/comments/ih0d8y/i_am_a_retired_physician_of_more_than_40_years_of/",
+    "submittedAt": "2026-05-09T19:39:35.621Z",
+    "isSeeded": true
+  },
+  {
+    "id": "ef0015e1-1a78-4199-b8d6-1b7ab64862f3",
+    "contributorName": "twinwaterscorpions",
+    "countryOfOrigin": "United States",
+    "arrivalYear": null,
+    "storyText": "I'm an American immigrant in Central America getting better medical care from American missionaries than I ever did in the US. I had good insurance in the US, but doctors often dismissed my concerns and didn't investigate my symptoms. I became disabled and left the US due to lack of affordable healthcare. In Central America, I found a missionary clinic with a rheumatologist who diagnosed me and provided free treatment. I'm grateful for the care, but it's confusing that American doctors can provide high-quality care in developing countries but not in the US.",
+    "keyDetails": [
+      "chronically ill since teenage years",
+      "disabled due to lack of proper healthcare",
+      "found a missionary clinic in Central America with a rheumatologist"
+    ],
+    "mentionedOrganizations": [
+      "MediCAL",
+      "Medicaid"
+    ],
+    "productsOrServices": [
+      "health insurance"
+    ],
+    "documentsMentioned": [
+      "none"
+    ],
+    "feesOrAmounts": [
+      "free medicine",
+      "expensive medication in Central America"
+    ],
+    "domain": "healthcare",
+    "sourceId": "f30fae6a-8a67-4dcb-8cb7-58d9e39a2966",
+    "sourceUrl": "https://www.reddit.com/r/AmerExit/comments/1i447wg/american_immigrant_in_central_am_getting_better/",
+    "submittedAt": "2026-05-09T19:39:35.622Z",
+    "isSeeded": true
+  },
+  {
+    "id": "d2a47dfd-5a2a-4fe7-a118-779c3cba3bb7",
+    "contributorName": "WinterLoonieLoonie",
+    "countryOfOrigin": null,
+    "arrivalYear": null,
+    "storyText": "I'm a new immigrant to the US, I recently accepted a job offer with a firm in Boston and I'll be moving there in April or May. I've visited the US for work before, but this is my first time making a full-time move. The position is remote/hybrid so I can live in any MA city. I'd prefer a roommate arrangement to get something to start out on the lower end of my budget (I'll only have 2 suitcases to my name with no furniture). In a few months, I'd get my own place. Ideally I'd just live in Boston but I've heard apartments are expensive.",
+    "keyDetails": [
+      "Moving to Boston in April or May",
+      "Looking for a roommate arrangement",
+      "Budget is $500-$1200",
+      "Job is remote/hybrid"
+    ],
+    "mentionedOrganizations": [
+      "Reddit"
+    ],
+    "productsOrServices": [],
+    "documentsMentioned": [],
+    "feesOrAmounts": [
+      "$500-$1200"
+    ],
+    "domain": "housing",
+    "sourceId": "cd8d54a3-ebd1-4eac-8d3c-0326baa3a154",
+    "sourceUrl": "https://www.reddit.com/r/bostonhousing/comments/1aydbtg/im_a_new_immigrant_to_the_us_need_to_find_an/",
+    "submittedAt": "2026-05-09T19:45:30.497Z",
+    "isSeeded": true
+  },
+  {
+    "id": "6f127ad9-6bc5-4fe3-838f-e6f4bde4884f",
+    "contributorName": "shiningdays",
+    "countryOfOrigin": null,
+    "arrivalYear": null,
+    "storyText": "I'm moving to NYC to work at a Fintech company and having trouble renting my first place due to lack of US credit history. I'd love to hear from others who have been in this situation and how they overcame it.",
+    "keyDetails": [
+      "no US credit history",
+      "starting job a few weeks after arrival"
+    ],
+    "mentionedOrganizations": [
+      "Fintech company"
+    ],
+    "productsOrServices": [],
+    "documentsMentioned": [
+      "US credit history",
+      "SSN",
+      "paystubs"
+    ],
+    "feesOrAmounts": [],
+    "domain": "housing",
+    "sourceId": "aa1e43fd-46da-4a0b-bcbb-cc7a31b2800c",
+    "sourceUrl": "https://www.reddit.com/r/AskNYC/comments/sroaxa/new_immigrantsforeigners_renting_your_first_place/",
+    "submittedAt": "2026-05-09T19:45:30.497Z",
+    "isSeeded": true
+  },
+  {
+    "id": "b2028137-4fa2-4607-a44d-c77526b769f5",
+    "contributorName": "Acceptable_Dark5056",
+    "countryOfOrigin": null,
+    "arrivalYear": null,
+    "storyText": "I'm a new immigrant and I'm confused about how to rent a house without a credit score. It takes 3-6 months to establish a credit score, but you need a credit score to rent a place. So, how do people find housing for the first 3 months?",
+    "keyDetails": [
+      "3-6 months to establish a credit score",
+      "need a credit score to rent a place"
+    ],
+    "mentionedOrganizations": [],
+    "productsOrServices": [],
+    "documentsMentioned": [
+      "credit score"
+    ],
+    "feesOrAmounts": [],
+    "domain": "housing",
+    "sourceId": "6238ecb6-e066-445c-8e57-ccf986e3a9fb",
+    "sourceUrl": "https://www.reddit.com/r/immigration/comments/191890x/renting_a_house_requires_a_good_credit_scorehow/",
+    "submittedAt": "2026-05-09T19:45:30.497Z",
+    "isSeeded": true
+  },
+  {
+    "id": "5e5990fe-f682-4b27-b96c-ec9dc060e6ef",
+    "contributorName": "MalibuhStacy",
+    "countryOfOrigin": null,
+    "arrivalYear": null,
+    "storyText": "I'm moving to the US in January to start my postdoc position and I was wondering if people who have done the same could share tips for the moving process. My university doesn't offer housing, so I would need to find an apartment. I have two cats and was thinking of renting a place to myself in Worcester.",
+    "keyDetails": [
+      "moving to the US for a postdoc position",
+      "university doesn't offer housing",
+      "renting an apartment in Worcester"
+    ],
+    "mentionedOrganizations": [
+      "NIH",
+      "University"
+    ],
+    "productsOrServices": [],
+    "documentsMentioned": [],
+    "feesOrAmounts": [],
+    "domain": "housing",
+    "sourceId": "cebd14ff-e45a-402b-ba98-6ca6c73360a8",
+    "sourceUrl": "https://www.reddit.com/r/postdoc/comments/xhgujt/first_steps_after_arriving_in_the_us/",
+    "submittedAt": "2026-05-09T19:45:30.497Z",
+    "isSeeded": true
+  },
+  {
+    "id": "d2a9efe3-d024-4229-9b3a-563eca40285c",
+    "contributorName": "DjTeekay",
+    "countryOfOrigin": null,
+    "arrivalYear": null,
+    "storyText": "I'm moving to NYC with my family on a work visa and looking for advice on renting our first place. I have no credit history or proof of income, and I'm considering offering extra deposit or upfront rent, subletting, or paying a guarantor service.",
+    "keyDetails": [
+      "Moving to NYC with family on a work visa",
+      "No credit history or proof of income",
+      "Considering extra deposit or upfront rent, subletting, or guarantor service"
+    ],
+    "mentionedOrganizations": [],
+    "productsOrServices": [],
+    "documentsMentioned": [],
+    "feesOrAmounts": [],
+    "domain": "housing",
+    "sourceId": "f1f57ded-ff13-4c3f-9c17-d81d3c01e007",
+    "sourceUrl": "https://www.reddit.com/r/AskNYC/comments/zsnvwq/renting_in_nyc_as_a_fresh_immigrant_wo/",
+    "submittedAt": "2026-05-09T19:45:30.497Z",
+    "isSeeded": true
+  },
+  {
+    "id": "2f1591b3-ca53-4cf2-91a5-c10ecb432061",
+    "contributorName": "depay29",
+    "countryOfOrigin": null,
+    "arrivalYear": null,
+    "storyText": "I'm moving to the United States permanently after winning the DV Lottery and securing a visa. I'm uncertain about the immigration process at the airport, particularly what address to provide for my stay. I'm considering renting an apartment online for three months and handling paperwork upon arrival.",
+    "keyDetails": [
+      "DV Lottery",
+      "three months rental"
+    ],
+    "mentionedOrganizations": [],
+    "productsOrServices": [],
+    "documentsMentioned": [
+      "visa"
+    ],
+    "feesOrAmounts": [],
+    "domain": "housing",
+    "sourceId": "a2b48fff-1b76-43a4-b4e0-edffe5ca6730",
+    "sourceUrl": "https://www.reddit.com/r/AskAnAmerican/comments/1aphy9j/can_i_rent_an_apartment_in_the_us_and_pay_for_it/",
+    "submittedAt": "2026-05-09T19:45:34.033Z",
+    "isSeeded": true
+  },
+  {
+    "id": "3d212e6a-1a52-4d45-80eb-0f5367c336f2",
+    "contributorName": "u/asksandiego",
+    "countryOfOrigin": null,
+    "arrivalYear": null,
+    "storyText": "I'm a legal immigrant looking to rent an apartment or house with no credit history and SSN. My friends, a family with 2 kids, recently won a green card lottery.",
+    "keyDetails": [
+      "No credit history",
+      "Recently won a green card lottery"
+    ],
+    "mentionedOrganizations": [],
+    "productsOrServices": [],
+    "documentsMentioned": [
+      "SSN",
+      "green card"
+    ],
+    "feesOrAmounts": [],
+    "domain": "housing",
+    "sourceId": "439d47bb-b4a4-463f-9f4f-cc6732ce1d53",
+    "sourceUrl": "https://www.reddit.com/r/asksandiego/comments/1mn30xf/apartment_house_to_rent_with_no_credit_history/",
+    "submittedAt": "2026-05-09T19:45:34.034Z",
+    "isSeeded": true
+  },
+  {
+    "id": "d636d7ca-91de-4bab-ad9f-72e3cedf9f37",
+    "contributorName": "u/throwaway1234567",
+    "countryOfOrigin": null,
+    "arrivalYear": null,
+    "storyText": "I applied for an apartment in NYC and got approved, but the management dropped the rent from $2,200 to $2,000 with a 21% broker fee of $5,000.",
+    "keyDetails": [
+      "applied ASAP",
+      "rent dropped from $2,200 to $2,000"
+    ],
+    "mentionedOrganizations": [
+      "management company"
+    ],
+    "productsOrServices": [],
+    "documentsMentioned": [],
+    "feesOrAmounts": [
+      "$2,200",
+      "$2,000",
+      "21% broker fee",
+      "$5,000"
+    ],
+    "domain": "housing",
+    "sourceId": "a8a7bf28-f49b-4c1a-a661-8a3b08cc55b8",
+    "sourceUrl": "https://www.reddit.com/r/nyc/comments/1jacrz2/do_not_move_until_broker_fee_law_passes_a/",
+    "submittedAt": "2026-05-09T19:45:38.125Z",
+    "isSeeded": true
+  },
+  {
+    "id": "611aa51c-d141-4b3a-9cdc-22cf412a41c0",
+    "contributorName": "u/OP",
+    "countryOfOrigin": null,
+    "arrivalYear": null,
+    "storyText": "I applied for an apartment in NYC with a rent of $2500 and a broker's fee of $4000 and some change. I have decent credit and a good income.",
+    "keyDetails": [
+      "applied for apartment in NYC",
+      "rent was $2500"
+    ],
+    "mentionedOrganizations": [],
+    "productsOrServices": [],
+    "documentsMentioned": [],
+    "feesOrAmounts": [
+      "$2500 rent",
+      "$4000 broker's fee"
+    ],
+    "domain": "housing",
+    "sourceId": "ac25966d-31d3-4d7b-9d22-21835e6e4b79",
+    "sourceUrl": "https://www.reddit.com/r/NYCapartments/comments/1iruv3m/whats_the_most_spit_in_your_face_moment_by_a/",
+    "submittedAt": "2026-05-09T19:45:38.125Z",
+    "isSeeded": true
+  },
+  {
+    "id": "bcb384b7-0d6c-4935-8e09-2135135a99af",
+    "contributorName": "u/throwaway729182",
+    "countryOfOrigin": null,
+    "arrivalYear": 1996,
+    "storyText": "I moved to New York City in 1996 as a young broke person for law school. My husband also moved here for his first job after college. We met through mutual friends and started our life together in the city.",
+    "keyDetails": [
+      "Moved to NYC as young adults",
+      "Husband's first job after college",
+      "Attended law school"
+    ],
+    "mentionedOrganizations": [],
+    "productsOrServices": [],
+    "documentsMentioned": [],
+    "feesOrAmounts": [],
+    "domain": "housing",
+    "sourceId": "e4131709-e356-4bbd-8396-55b705baca34",
+    "sourceUrl": "https://www.reddit.com/r/AskNYC/comments/1nngkji/people_that_moved_to_new_york_city_as_a_young/",
+    "submittedAt": "2026-05-09T19:45:38.125Z",
+    "isSeeded": true
+  },
+  {
+    "id": "b4dbf6e2-a2ba-448d-8c84-11b6f3fdcf8a",
+    "contributorName": "devilmansanchez",
+    "countryOfOrigin": null,
+    "arrivalYear": null,
+    "storyText": "My dad, a Civil Engineer with 29 years of experience, recently immigrated to the US. He got a job designing ship pieces in AutoCad for a small business, but they treat him poorly. He doesn't speak academic English, and his degree isn't recognized in the US. I'm wondering if there's hope for him to get another job with his experience, despite the language barrier and lack of recognized degree.",
+    "keyDetails": [
+      "Dad has 29 years of experience as a Civil Engineer",
+      "He doesn't speak academic English",
+      "His degree isn't recognized in the US"
+    ],
+    "mentionedOrganizations": [
+      "Small business (unnamed)"
+    ],
+    "productsOrServices": [
+      "AutoCad"
+    ],
+    "documentsMentioned": [
+      "Degree (not recognized in the US)"
+    ],
+    "feesOrAmounts": [],
+    "domain": "jobs",
+    "sourceId": "a17396e1-4b20-461b-9012-1e60397cde34",
+    "sourceUrl": "https://www.reddit.com/r/AskEngineers/comments/8nw1j3/how_does_an_immigrant_engineer_gets_a_work_in_usa",
+    "submittedAt": "2026-05-09T19:47:22.307Z",
+    "isSeeded": true
+  },
+  {
+    "id": "29964739-187a-454c-81c7-4845710fe587",
+    "contributorName": "Super_College100",
+    "countryOfOrigin": "Philippines",
+    "arrivalYear": null,
+    "storyText": "I'm a new immigrant and need to send money to my family in the Philippines. I've found apps like taptapsend, remitly, wise, and worldremit, but I'm not sure how to verify their licenses. A remittance center near my work charges $10 per send, which is $20/month less for my mom. I'm looking for a safe and regulated way to send money, preferably to gcash, which my family uses.",
+    "keyDetails": [
+      "Sending money to family in the Philippines",
+      "Using apps like taptapsend, remitly, wise, and worldremit",
+      "Remittance center charges $10 per send"
+    ],
+    "mentionedOrganizations": [
+      "taptapsend",
+      "remitly",
+      "wise",
+      "worldremit",
+      "gcash"
+    ],
+    "productsOrServices": [
+      "money transfer apps"
+    ],
+    "documentsMentioned": [],
+    "feesOrAmounts": [
+      "$10 per send",
+      "$20/month"
+    ],
+    "domain": "jobs",
+    "sourceId": "752f8be6-9d14-4769-8654-ca30efc8e6ea",
+    "sourceUrl": "https://www.reddit.com/r/immigration/comments/1ses0b6/how_to_send_money_to_philippines_from_usa_safely",
+    "submittedAt": "2026-05-09T19:47:22.307Z",
+    "isSeeded": true
+  },
+  {
+    "id": "2e1b8c77-b1f6-409f-b09b-0a87be2218b6",
+    "contributorName": "Ladddooo",
+    "countryOfOrigin": null,
+    "arrivalYear": null,
+    "storyText": "I'm an immigrant who has applied to over 80 jobs on Indeed and haven't gotten any response. I need help and advice on how to improve my resume.",
+    "keyDetails": [
+      "Applied to over 80 jobs on Indeed",
+      "No response received"
+    ],
+    "mentionedOrganizations": [
+      "Indeed"
+    ],
+    "productsOrServices": [
+      "Resume"
+    ],
+    "documentsMentioned": [
+      "Resume"
+    ],
+    "feesOrAmounts": [],
+    "domain": "jobs",
+    "sourceId": "29913b47-e9e3-45a9-b2bb-65cad6b33fd7",
+    "sourceUrl": "https://www.reddit.com/r/resumes/comments/y0uudi/as_an_immigrant_i_have_applied_to_80_jobs_on/",
+    "submittedAt": "2026-05-09T19:47:41.882Z",
+    "isSeeded": true
+  },
+  {
+    "id": "e528a23f-7c9e-4d3e-8ed7-408c9ed0a5e5",
+    "contributorName": "han-kay",
+    "countryOfOrigin": "UK",
+    "arrivalYear": null,
+    "storyText": "I recently immigrated to the US from the UK and will be looking for employment soon. I've been converting my UK CV to a US resume format and noticed that many include a languages section. As an immigrant with a non-Anglo name, I'm wondering if I should include English as my first language to avoid potential bias.",
+    "keyDetails": [
+      "Converting UK CV to US resume format",
+      "Considering including English as a language to avoid bias"
+    ],
+    "mentionedOrganizations": [],
+    "productsOrServices": [],
+    "documentsMentioned": [
+      "CV",
+      "resume"
+    ],
+    "feesOrAmounts": [],
+    "domain": "jobs",
+    "sourceId": "fc105f3f-82e9-4d99-9935-8076acf93edc",
+    "sourceUrl": "https://www.reddit.com/r/resumes/comments/1lmvy7s/recent_immigrant_to_us_including_languages_on/",
+    "submittedAt": "2026-05-09T19:47:41.882Z",
+    "isSeeded": true
+  },
+  {
+    "id": "1c3b3dc3-c330-4aa9-a559-a97efea03c89",
+    "contributorName": "resume_need_help",
+    "countryOfOrigin": null,
+    "arrivalYear": null,
+    "storyText": "I just moved to the US/CA as a new immigrant and have applied for around 200 positions, but barely got a callback. I'm looking for help to improve my resume.",
+    "keyDetails": [
+      "Applied for 200 positions",
+      "Barely got a callback"
+    ],
+    "mentionedOrganizations": [
+      "Reddit"
+    ],
+    "productsOrServices": [
+      "Resume writing"
+    ],
+    "documentsMentioned": [
+      "Resume"
+    ],
+    "feesOrAmounts": [],
+    "domain": "jobs",
+    "sourceId": "2878562e-6e13-4d20-b764-e8e7173f7e52",
+    "sourceUrl": "https://www.reddit.com/r/Resume/comments/12hxabx/just_moved_to_the_us_ca_as_a_new_immigrant_have/",
+    "submittedAt": "2026-05-09T19:47:41.882Z",
+    "isSeeded": true
+  },
+  {
+    "id": "45914d33-f616-4eb6-a3c8-427dfdc527cb",
+    "contributorName": "u/throwaway",
+    "countryOfOrigin": null,
+    "arrivalYear": null,
+    "storyText": "I, a DACA recipient, and my wife, a US citizen, had an interview at USCIS in Santa Ana. We arrived 20 minutes early for our 8:00 AM appointment.",
+    "keyDetails": [
+      "Arrived 20 minutes early for the 8:00 AM appointment",
+      "Interview at USCIS in Santa Ana"
+    ],
+    "mentionedOrganizations": [
+      "USCIS"
+    ],
+    "productsOrServices": [],
+    "documentsMentioned": [
+      "DACA"
+    ],
+    "feesOrAmounts": [],
+    "domain": "jobs",
+    "sourceId": "dc38005a-dec9-4827-9a04-4f2c8f207bdd",
+    "sourceUrl": "https://www.reddit.com/r/USCIS/comments/1jn061o/got_approved_heres_our_story_about_our_interview/",
+    "submittedAt": "2026-05-09T19:47:44.858Z",
+    "isSeeded": true
+  },
+  {
+    "id": "fcd9afd6-c47a-4a1c-adbb-c4fe6595062e",
+    "contributorName": "u/throwaway123456",
+    "countryOfOrigin": null,
+    "arrivalYear": null,
+    "storyText": "I got a receptionist/assistant job at an immigration attorney's office after having done my whole marriage based green card process. I found the job on Indeed.",
+    "keyDetails": [
+      "Found job on Indeed",
+      "Marriage based green card process"
+    ],
+    "mentionedOrganizations": [
+      "Indeed",
+      "immigration attorney's office"
+    ],
+    "productsOrServices": [
+      "Indeed job portal"
+    ],
+    "documentsMentioned": [
+      "green card"
+    ],
+    "feesOrAmounts": [],
+    "domain": "jobs",
+    "sourceId": "bb0c7e8b-0fb8-43d1-ae10-794be3da1bdc",
+    "sourceUrl": "https://www.reddit.com/r/USCIS/comments/unogbx/new_immigrants_in_the_us_how_did_you_land_your/",
+    "submittedAt": "2026-05-09T19:47:48.060Z",
+    "isSeeded": true
+  },
+  {
+    "id": "692ed130-4ae3-4f9b-ba7b-335e62dde7ca",
+    "contributorName": "Unknown",
+    "countryOfOrigin": "UK",
+    "arrivalYear": null,
+    "storyText": "I emigrated from the UK to Sacramento recently and I'm wondering how I should go about adding employment references. Will an email address be sufficient?",
+    "keyDetails": [
+      "recently emigrated to Sacramento"
+    ],
+    "mentionedOrganizations": [
+      "CA State Workers"
+    ],
+    "productsOrServices": [],
+    "documentsMentioned": [],
+    "feesOrAmounts": [],
+    "domain": "jobs",
+    "sourceId": "d7ba644e-1a40-4a45-b42e-efdab1700d94",
+    "sourceUrl": "https://www.reddit.com/r/CAStateWorkers/comments/vmvatx/how_should_i_include_employment_references_as_a/",
+    "submittedAt": "2026-05-09T19:47:48.060Z",
+    "isSeeded": true
+  },
+  {
+    "id": "00e15d4a-aa9f-4ca3-a426-8c5ffc42f444",
+    "contributorName": "yotee8",
+    "countryOfOrigin": "Russia",
+    "arrivalYear": null,
+    "storyText": "I'm 23, my wife is 22. We won the lottery and are moving to the US. I'm concerned about getting jobs to sustain ourselves. My wife has no university degrees and works in a pet shop, I go to college and teach English sometimes.",
+    "keyDetails": [
+      "Won the lottery to move to the US",
+      "Concerned about finding jobs"
+    ],
+    "mentionedOrganizations": [],
+    "productsOrServices": [],
+    "documentsMentioned": [],
+    "feesOrAmounts": [],
+    "domain": "jobs",
+    "sourceId": "d8563322-a4ec-4f51-a9fe-e4cec8acbb0a",
+    "sourceUrl": "https://www.reddit.com/r/AskAnAmerican/comments/11xdqt3/is_it_hard_for_immigrants_to_get_jobs_and_sustain/",
+    "submittedAt": "2026-05-09T19:48:01.383Z",
+    "isSeeded": true
+  },
+  {
+    "id": "db637901-7c61-4f5b-ad13-68af3161e69b",
+    "contributorName": "Alisa Korneeva",
+    "countryOfOrigin": "Russia",
+    "arrivalYear": null,
+    "storyText": "I'm a marketer with over a decade of experience working for international companies in the USA, Russia, and Europe. After relocating to the United States, I struggled to concisely and confidently present my background, especially during interviews. I lacked knowledge of self-presentation and storytelling, and it took time to overcome the mindset of not wanting to boast or stand out.",
+    "keyDetails": [
+      "Launched AirTeam to support immigrants in navigating the US job market",
+      "Developed a 5-week career bootcamp to enhance soft skills and job search success"
+    ],
+    "mentionedOrganizations": [
+      "AirTeam",
+      "Telegram"
+    ],
+    "productsOrServices": [
+      "5-week career bootcamp",
+      "LinkedIn"
+    ],
+    "documentsMentioned": [
+      "Resume"
+    ],
+    "feesOrAmounts": [
+      "30% discount on bootcamp packages with promocode MEDIUM"
+    ],
+    "domain": "jobs",
+    "sourceId": "6f5357db-0d24-4bc8-9bc7-9a8a8570df24",
+    "sourceUrl": "https://medium.com/@alisalazar/from-struggle-to-success-navigating-the-job-market-in-the-us-as-an-immigrant-5ca458495577",
+    "submittedAt": "2026-05-09T19:48:14.670Z",
+    "isSeeded": true
+  },
+  {
+    "id": "bf1791cf-556d-4639-b316-05ba6e7b8ff5",
+    "contributorName": "AnkuSnoo",
+    "countryOfOrigin": null,
+    "arrivalYear": null,
+    "storyText": "I recently moved to the US on a K1 fiancé visa and had trouble finding a bank to open an individual checking account. I have a social security number and state ID, but banks said they couldn't 'verify' me. I tried USAA and Ally, but was rejected. I already have a Charles Schwab account, but want to have multiple accounts for different purposes.",
+    "keyDetails": [
+      "Moved to the US on a K1 fiancé visa",
+      "Having trouble opening an individual checking account",
+      "Has social security number and state ID"
+    ],
+    "mentionedOrganizations": [
+      "USAA",
+      "Ally",
+      "Charles Schwab"
+    ],
+    "productsOrServices": [
+      "Checking account"
+    ],
+    "documentsMentioned": [
+      "Social security number",
+      "State ID"
+    ],
+    "feesOrAmounts": [],
+    "domain": "banking",
+    "sourceId": "16e71176-9c3f-439f-8be8-cebf145d9429",
+    "sourceUrl": "https://www.reddit.com/r/immigration/comments/1fse1dp/usa_where_can_new_immigrants_easily_open_a_bank/",
+    "submittedAt": "2026-05-09T19:50:18.710Z",
+    "isSeeded": true
+  },
+  {
+    "id": "461e77e4-2da4-4e60-99bb-a3c02cf4f31b",
+    "contributorName": "deleted",
+    "countryOfOrigin": null,
+    "arrivalYear": null,
+    "storyText": "I recently immigrated to the US and tried to open a bank account at Chase and Wells Fargo without an SSN. The employees said it was okay, but their system wouldn't allow it. I'm waiting for my SSN and using my home country bank account for now.",
+    "keyDetails": [
+      "Tried to open bank account at Chase and Wells Fargo",
+      "System wouldn't allow account opening without SSN",
+      "Using home country bank account for now"
+    ],
+    "mentionedOrganizations": [
+      "Chase",
+      "Wells Fargo",
+      "SSA"
+    ],
+    "productsOrServices": [
+      "bank account"
+    ],
+    "documentsMentioned": [
+      "SSN"
+    ],
+    "feesOrAmounts": [
+      "no fees for USD payments with home country bank account"
+    ],
+    "domain": "banking",
+    "sourceId": "a7047377-cd2a-4d0b-9993-e70b351c7c57",
+    "sourceUrl": "https://www.reddit.com/r/immigration/comments/1okb48o/psa_to_new_us_immigrants_bank_account_before/",
+    "submittedAt": "2026-05-09T19:50:18.715Z",
+    "isSeeded": true
+  },
+  {
+    "id": "5e1aa468-b6a5-4f20-8829-97ad79c7ff6a",
+    "contributorName": "PopcornEnthusiaster",
+    "countryOfOrigin": null,
+    "arrivalYear": null,
+    "storyText": "I'm helping someone who was recently deported and had a US bank account with Chase. They're locked out of their account and need a US phone number to unlock it, but their phone was seized during detention. They also don't remember their SSN, which was on paperwork that got seized.",
+    "keyDetails": [
+      "The person was deported without their asylum case being heard.",
+      "They were in traumatic ICE detention facilities for 3+ months awaiting trial.",
+      "The judge cited 'pretermission' as the reason for deportation."
+    ],
+    "mentionedOrganizations": [
+      "Chase",
+      "ICE",
+      "US immigration court"
+    ],
+    "productsOrServices": [
+      "US bank account"
+    ],
+    "documentsMentioned": [
+      "SSN",
+      "asylum case paperwork"
+    ],
+    "feesOrAmounts": [],
+    "domain": "banking",
+    "sourceId": "1778859a-526c-4f93-bbe1-3cb19b6eea67",
+    "sourceUrl": "https://www.reddit.com/r/immigration/comments/1rr68zl/accessing_us_bank_account_after_deportation/",
+    "submittedAt": "2026-05-09T19:50:18.716Z",
+    "isSeeded": true
+  },
+  {
+    "id": "b4ebe892-7e18-4f51-b202-24a8f0385e13",
+    "contributorName": "AJAMS82",
+    "countryOfOrigin": null,
+    "arrivalYear": null,
+    "storyText": "I opened a bank account in my country of origin to use for daily payments. During the application, I was asked if I'm a US taxpayer, and I didn't check that box. I only use the account for small purchases.",
+    "keyDetails": [
+      "daily payment basis",
+      "US taxpayer question"
+    ],
+    "mentionedOrganizations": [],
+    "productsOrServices": [
+      "bank account"
+    ],
+    "documentsMentioned": [],
+    "feesOrAmounts": [],
+    "domain": "banking",
+    "sourceId": "61466424-e723-4879-a49d-32f43e5b03bf",
+    "sourceUrl": "https://www.reddit.com/r/ExpatFIRE/comments/1dcf3rw/opening_bank_account_for_us_citizen_with_another/",
+    "submittedAt": "2026-05-09T19:50:18.716Z",
+    "isSeeded": true
+  },
+  {
+    "id": "b2c59749-4845-4c59-aee0-1413c55261c9",
+    "contributorName": "u/immigration commenter",
+    "countryOfOrigin": null,
+    "arrivalYear": null,
+    "storyText": "I found Charles Schwab to have no ATM fees worldwide. For transferring money, wire transfer is an option, but services like Transferwise are often better priced.",
+    "keyDetails": [
+      "no ATM fees worldwide"
+    ],
+    "mentionedOrganizations": [
+      "Charles Schwab",
+      "Transferwise"
+    ],
+    "productsOrServices": [
+      "wire transfer"
+    ],
+    "documentsMentioned": [],
+    "feesOrAmounts": [
+      "no ATM fees"
+    ],
+    "domain": "banking",
+    "sourceId": "1248fb62-2bf3-4900-9878-18b115be4b50",
+    "sourceUrl": "https://www.reddit.com/r/immigration/comments/a9vgni/good_us_bank_for_immigrants/",
+    "submittedAt": "2026-05-09T19:50:23.491Z",
+    "isSeeded": true
+  },
+  {
+    "id": "6d2d62e6-48b5-4db2-9de2-9f1e3c78cf39",
+    "contributorName": "u/newimmigrant",
+    "countryOfOrigin": null,
+    "arrivalYear": null,
+    "storyText": "I'm a new immigrant to the USA, lost with banking and finance. I need recommendations on banks to use.",
+    "keyDetails": [
+      "New to the US banking system"
+    ],
+    "mentionedOrganizations": [
+      "banks"
+    ],
+    "productsOrServices": [
+      "banking services"
+    ],
+    "documentsMentioned": [],
+    "feesOrAmounts": [],
+    "domain": "banking",
+    "sourceId": "913960cb-57ee-4708-98a1-de77ecf51ffc",
+    "sourceUrl": "https://www.reddit.com/r/personalfinance/comments/gqzesq/new_immigrant_to_the_usa/",
+    "submittedAt": "2026-05-09T19:50:23.491Z",
+    "isSeeded": true
+  },
+  {
+    "id": "2d797a4c-c5c4-48a5-b364-ad9839cfa85e",
+    "contributorName": "Unknown",
+    "countryOfOrigin": null,
+    "arrivalYear": null,
+    "storyText": "I just interviewed for an immigrant visa to the US, which means soon I will enter the country as a permanent resident for the first time. Since I've never held any US visa before, I have no SSN, and no US utility bills as proof of address. Still, the first thing I'd like to do is open a bank account. I found these requirements by Chase and it seems like just the primary and secondary forms of ID should be enough if you go to the branch.",
+    "keyDetails": [
+      "No SSN",
+      "No US utility bills as proof of address",
+      "Planning to open a bank account as a permanent resident"
+    ],
+    "mentionedOrganizations": [
+      "Chase"
+    ],
+    "productsOrServices": [
+      "Chase bank account"
+    ],
+    "documentsMentioned": [
+      "Passport",
+      "Foreign national ID",
+      "SSN"
+    ],
+    "feesOrAmounts": [],
+    "domain": "banking",
+    "sourceId": "503dc438-c0fb-411d-b423-db7acf6e0bdb",
+    "sourceUrl": "https://www.reddit.com/r/Chase/comments/1lj5os5/opening_a_bank_account_as_a_brand_new_immigrant",
+    "submittedAt": "2026-05-09T19:50:23.491Z",
+    "isSeeded": true
+  },
+  {
+    "id": "b4763617-d615-467d-b8b2-91012b3bd56b",
+    "contributorName": "IntltoUSA",
+    "countryOfOrigin": null,
+    "arrivalYear": null,
+    "storyText": "I used Chase bank without any doubt. I took my I-20 and passport and I was fine. Chase has some nice incentives.",
+    "keyDetails": [
+      "International student",
+      "No-fee bank account"
+    ],
+    "mentionedOrganizations": [
+      "Chase bank"
+    ],
+    "productsOrServices": [
+      "No-fee bank account"
+    ],
+    "documentsMentioned": [
+      "I-20",
+      "passport"
+    ],
+    "feesOrAmounts": [
+      "No-fee"
+    ],
+    "domain": "banking",
+    "sourceId": "6b5f1722-26e2-4b3a-903c-0f26eb49a53e",
+    "sourceUrl": "https://www.reddit.com/r/IntltoUSA/comments/1fjbbb8/best_nofee_bank_account_for_international/",
+    "submittedAt": "2026-05-09T19:50:42.384Z",
+    "isSeeded": true
+  },
+  {
+    "id": "04ade845-2d3e-42cd-81e0-bccc4ce71a07",
+    "contributorName": "u/unknown",
+    "countryOfOrigin": "UK",
+    "arrivalYear": null,
+    "storyText": "I'm moving to the US from the UK and looking for banking options. I want to understand how banking works in the US.",
+    "keyDetails": [
+      "Moving to the US in a week"
+    ],
+    "mentionedOrganizations": [],
+    "productsOrServices": [],
+    "documentsMentioned": [],
+    "feesOrAmounts": [],
+    "domain": "banking",
+    "sourceId": "908b7e85-62ec-48c1-b790-45393a7f8c2e",
+    "sourceUrl": "https://www.reddit.com/r/personalfinance/comments/1064elp/moving_to_the_us_what_how_do_i_bank/",
+    "submittedAt": "2026-05-09T19:50:42.384Z",
+    "isSeeded": true
+  },
+  {
+    "id": "343fc0ce-c8bf-44ef-a87a-69da534a7f80",
+    "contributorName": "Unknown",
+    "countryOfOrigin": "Venezuela",
+    "arrivalYear": null,
+    "storyText": "I'm posting about my dad's experience with Bank of America. He usually sends several Zelle payments each week to different people, since that's how he helps send money to our family members in Venezuela. Bank of America closed his account after frequent Zelle transfers.",
+    "keyDetails": [
+      "Frequent Zelle transfers led to account closure",
+      "Transfers were to help family members"
+    ],
+    "mentionedOrganizations": [
+      "Bank of America"
+    ],
+    "productsOrServices": [
+      "Zelle"
+    ],
+    "documentsMentioned": [],
+    "feesOrAmounts": [],
+    "domain": "banking",
+    "sourceId": "05dda41c-73fe-4df1-8ce6-c26f36d26cbc",
+    "sourceUrl": "https://www.reddit.com/r/Banking/comments/1ovn0lx/bank_of_america_closed_my_dads_account_after/",
+    "submittedAt": "2026-05-09T19:50:47.899Z",
+    "isSeeded": true
+  },
+  {
+    "id": "4c223edf-daab-4733-a777-7303d82e88d5",
+    "contributorName": "pensezbien",
+    "countryOfOrigin": "a country in the Spanish-speaking world",
+    "arrivalYear": null,
+    "storyText": "My wife is likely to receive an immigrant visa and become a lawful permanent resident later this year. I'm considering two options for applying for her SSN: Enumeration At Entry (EAE) or a regular application after arrival. I'm concerned about the potential delays and failures in the EAE process, especially since her parents' names have multiple spaces, which might cause issues.",
+    "keyDetails": [
+      "Two options for SSN application: EAE or regular application after arrival",
+      "Concerns about EAE process delays and failures"
+    ],
+    "mentionedOrganizations": [
+      "SSA",
+      "CBP",
+      "USCIS",
+      "State Department"
+    ],
+    "productsOrServices": [
+      "SS-5 process"
+    ],
+    "documentsMentioned": [
+      "immigrant visa",
+      "passport",
+      "Social Security Card"
+    ],
+    "feesOrAmounts": [],
+    "domain": "legal-paperwork",
+    "sourceId": "27e777a6-a148-40a3-b96f-46bc069c4558",
+    "sourceUrl": "https://www.reddit.com/r/immigration/comments/ohad6u/ssn_for_new_immigrant/",
+    "submittedAt": "2026-05-09T19:52:58.461Z",
+    "isSeeded": true
+  },
+  {
+    "id": "ebe99e47-2b44-479d-80a8-1497c5e0f3d2",
+    "contributorName": "Waste-Head7963",
+    "countryOfOrigin": null,
+    "arrivalYear": null,
+    "storyText": "I see that the SSN appointments can take up to 4 weeks. So when we start, we will be without a valid SSN. Can you get paid without an SSN? How did you guys manage? What should I tell my employer?",
+    "keyDetails": [
+      "SSN appointments can take up to 4 weeks",
+      "uncertainty about getting paid without an SSN"
+    ],
+    "mentionedOrganizations": [
+      "SSN office"
+    ],
+    "productsOrServices": [],
+    "documentsMentioned": [
+      "SSN"
+    ],
+    "feesOrAmounts": [],
+    "domain": "legal-paperwork",
+    "sourceId": "0aa06a41-650a-4f3b-aced-cf840ad1ee63",
+    "sourceUrl": "https://www.reddit.com/r/tnvisa/comments/1oxyn4w/ssn_appointment_advice/",
+    "submittedAt": "2026-05-09T19:52:58.461Z",
+    "isSeeded": true
+  },
+  {
+    "id": "d9025bf5-d7bf-4b7b-88b8-5cfc3dcfaaa9",
+    "contributorName": "Own_Sundae7059",
+    "countryOfOrigin": null,
+    "arrivalYear": null,
+    "storyText": "I got my EAD approved on February 25, 2026, and scheduled my SSN appointment for March 20. After waiting about a month, my SAVE case status updated to 'Case Returned to Agency.' However, I received a letter saying they could not issue my SSN. I booked another appointment for April 27, but the lady at the SSA office refused to process a new application, telling me to wait another 30 days. I booked another appointment for May 7.",
+    "keyDetails": [
+      "EAD approved on February 25, 2026",
+      "SSN appointment on March 20",
+      "SAVE case status updated to 'Case Returned to Agency' on April 20",
+      "Received denial letter on April 25",
+      "Second SSN appointment on April 27",
+      "Next appointment on May 7"
+    ],
+    "mentionedOrganizations": [
+      "SSA"
+    ],
+    "productsOrServices": [],
+    "documentsMentioned": [
+      "EAD",
+      "SSN",
+      "SAVE case status"
+    ],
+    "feesOrAmounts": [],
+    "domain": "legal-paperwork",
+    "sourceId": "4b6a6fb3-e1b2-4560-82f1-7f665ee7615d",
+    "sourceUrl": "https://www.reddit.com/r/VAWAAPPLICANTS/comments/1sxi6of/ssn_update/",
+    "submittedAt": "2026-05-09T19:52:58.461Z",
+    "isSeeded": true
+  },
+  {
+    "id": "fae28dfc-8f7c-44e3-a156-a5b64821a004",
+    "contributorName": "dieggarciaf",
+    "countryOfOrigin": null,
+    "arrivalYear": null,
+    "storyText": "I updated my social security number card due to my US citizenship, but I haven't received it after more than a week. My dad and sister got theirs in less than a week.",
+    "keyDetails": [
+      "Waiting time for social security number card is over a week",
+      "Update was due to US citizenship"
+    ],
+    "mentionedOrganizations": [
+      "Social Security Administration"
+    ],
+    "productsOrServices": [
+      "Social Security number card"
+    ],
+    "documentsMentioned": [
+      "Social Security number card"
+    ],
+    "feesOrAmounts": [],
+    "domain": "legal-paperwork",
+    "sourceId": "6b327512-08a4-47cd-9fd5-dbac301d561b",
+    "sourceUrl": "https://www.reddit.com/r/SocialSecurity/comments/1o92aw9/social_security_number_card_time",
+    "submittedAt": "2026-05-09T19:52:58.461Z",
+    "isSeeded": true
+  },
+  {
+    "id": "5cf402e3-740a-4e72-8763-78340b142263",
+    "contributorName": "deleted",
+    "countryOfOrigin": null,
+    "arrivalYear": null,
+    "storyText": "I'm undocumented in the US, working for cash for almost 2 years. My employer wants me to become a W-9 employee, but I need an ITIN number. I've never filed taxes and don't have a SSN or ITIN. I'm recently married to a US citizen.",
+    "keyDetails": [
+      "W-9 employee",
+      "no tax return",
+      "recently married to a US citizen"
+    ],
+    "mentionedOrganizations": [
+      "IRS",
+      "US government"
+    ],
+    "productsOrServices": [
+      "ITIN application",
+      "W-7 form"
+    ],
+    "documentsMentioned": [
+      "passport",
+      "W-7 form",
+      "ITIN number",
+      "SSN"
+    ],
+    "feesOrAmounts": [],
+    "domain": "legal-paperwork",
+    "sourceId": "09be6cd0-4646-4d1f-a7a8-cff7533f4866",
+    "sourceUrl": "https://www.reddit.com/r/IRS/comments/1nh0ldv/help_obtaining_itin_number_undocumented_and_no/",
+    "submittedAt": "2026-05-09T19:53:13.271Z",
+    "isSeeded": true
+  },
+  {
+    "id": "33b874a8-c526-4b82-bce3-6fc59ba9fc5c",
+    "contributorName": "JumboHotdawg88",
+    "countryOfOrigin": null,
+    "arrivalYear": null,
+    "storyText": "I filed with H&R Block together with an ITIN application for my wife, who is undocumented and overstayed her visa. We provided her passport, I-94, and visa, but they asked for updated documents while we're still petitioning for her.",
+    "keyDetails": [
+      "H&R Block requested updated visa and I-94 for ITIN application",
+      "Wife is undocumented and overstayed her visa"
+    ],
+    "mentionedOrganizations": [
+      "H&R Block"
+    ],
+    "productsOrServices": [
+      "ITIN application"
+    ],
+    "documentsMentioned": [
+      "passport",
+      "I-94",
+      "visa"
+    ],
+    "feesOrAmounts": [],
+    "domain": "legal-paperwork",
+    "sourceId": "5ccb3953-5fe8-491b-a577-83bb44f1ab5b",
+    "sourceUrl": "https://www.reddit.com/r/hrblock/comments/1rr31lt/hr_block_itin_application/",
+    "submittedAt": "2026-05-09T19:53:13.271Z",
+    "isSeeded": true
+  },
+  {
+    "id": "394e67fa-33d0-42bc-b8cb-f06f7db2a265",
+    "contributorName": "OceanBlades420",
+    "countryOfOrigin": null,
+    "arrivalYear": null,
+    "storyText": "I'm a dreamer with no DACA in Cali and finally gotten my ITIN after 6 months. I've been doing some research on the kinds of work I can do with it, and I know about independent contracting and how it differs from W-9 employment. I'm interested in stock trading as well as freelance work.",
+    "keyDetails": [
+      "6 months to get ITIN",
+      "interested in stock trading and freelance work"
+    ],
+    "mentionedOrganizations": [
+      "USCIS",
+      "Fiverr",
+      "Upwork"
+    ],
+    "productsOrServices": [
+      "ITIN",
+      "W-9 employment",
+      "independent contracting",
+      "freelance work"
+    ],
+    "documentsMentioned": [
+      "ITIN",
+      "W-9"
+    ],
+    "feesOrAmounts": [],
+    "domain": "legal-paperwork",
+    "sourceId": "9ade6288-4a4f-4835-9cdc-e37625e3e5b5",
+    "sourceUrl": "https://www.reddit.com/r/DACA/comments/132fyau/just_got_my_itin_what_kind_of_work_should_i_look/",
+    "submittedAt": "2026-05-09T19:53:13.271Z",
+    "isSeeded": true
+  },
+  {
+    "id": "72b3820c-1c32-49d6-9a45-3cf67078460a",
+    "contributorName": "Direct-Ad4148",
+    "countryOfOrigin": null,
+    "arrivalYear": null,
+    "storyText": "I've searched the history of this subreddit to see if I can find an answer to a very specific situation. My parents are mid 50s and undocumented immigrants with ITINs. They both want to open accounts and save as much as possible for retirement, but I'm not sure if that's possible. They're nonresidents but have been paying income taxes through their ITINs, and they're self-employed.",
+    "keyDetails": [
+      "undocumented immigrants",
+      "ITINs",
+      "nonresidents",
+      "self-employed",
+      "paying income taxes"
+    ],
+    "mentionedOrganizations": [
+      "Fidelity"
+    ],
+    "productsOrServices": [
+      "Roth IRA"
+    ],
+    "documentsMentioned": [
+      "ITIN"
+    ],
+    "feesOrAmounts": [],
+    "domain": "legal-paperwork",
+    "sourceId": "c09c465c-2201-4223-a7e5-984c34a1793b",
+    "sourceUrl": "https://www.reddit.com/r/fidelityinvestments/comments/1bb1uf2/can_undocumented_immigrants_nonresidents_with/",
+    "submittedAt": "2026-05-09T19:53:13.271Z",
+    "isSeeded": true
+  },
+  {
+    "id": "17b86bfa-a97c-451a-8b12-3d16f9c9339a",
+    "contributorName": "StraightUse8065",
+    "countryOfOrigin": null,
+    "arrivalYear": null,
+    "storyText": "I have my Texas ID appointment tomorrow. I'm using my I-551 form (green card) and bank statements for proof of Texas residency.",
+    "keyDetails": [
+      "Texas ID appointment",
+      "I-551 form (green card) as proof of residency"
+    ],
+    "mentionedOrganizations": [
+      "U.S. Citizenship and Immigration Services",
+      "Texas DMV"
+    ],
+    "productsOrServices": [],
+    "documentsMentioned": [
+      "I-551 form (green card)",
+      "Form DS2019",
+      "Texas ID",
+      "bank statements"
+    ],
+    "feesOrAmounts": [],
+    "domain": "legal-paperwork",
+    "sourceId": "71e1b60d-addf-4fe7-916e-3a9b0adf7ac6",
+    "sourceUrl": "https://www.reddit.com/r/DMV/comments/1ioc8p9/residency_documents_question/",
+    "submittedAt": "2026-05-09T19:53:25.994Z",
+    "isSeeded": true
+  },
+  {
+    "id": "bbbc00b1-f011-48a6-a82f-a9a65d34c83c",
+    "contributorName": "WorriedFisherman132",
+    "countryOfOrigin": null,
+    "arrivalYear": null,
+    "storyText": "I'm a green card holder with a 2-year conditional green card. I filed for Removal of Conditions and was told by the DMV that they cannot renew my driver's license until I receive my new physical green card. I brought my receipt of notice, which states that my I-551 is extended for 48 months beyond the expiration date on my green card. After visiting multiple DMVs, I finally found an employee who was willing to help me and my DL was renewed.",
+    "keyDetails": [
+      "2-year conditional green card",
+      "filed for Removal of Conditions",
+      "receipt of notice extends I-551 validity for 48 months",
+      "DL renewal issues at multiple DMVs",
+      "wait time for USCIS to process application is 28 months"
+    ],
+    "mentionedOrganizations": [
+      "DMV",
+      "USCIS"
+    ],
+    "productsOrServices": [
+      "driver's license",
+      "green card"
+    ],
+    "documentsMentioned": [
+      "I-551",
+      "receipt of notice",
+      "green card"
+    ],
+    "feesOrAmounts": [
+      "20 to 45 days for DL to arrive in the mail"
+    ],
+    "domain": "legal-paperwork",
+    "sourceId": "b285ec54-0c78-486e-a982-c89f31b4c1f4",
+    "sourceUrl": "https://www.reddit.com/r/immigration/comments/1q8uunj/dmv_refusing_to_renew_dl_to_green_card_holder/",
+    "submittedAt": "2026-05-09T19:53:25.995Z",
     "isSeeded": true
   }
 ]

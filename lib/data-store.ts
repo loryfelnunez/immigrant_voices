@@ -29,6 +29,19 @@ async function readJsonArray<T>(filePath: string, seed: T[], parser: (value: unk
   return parsed.map(parser);
 }
 
+async function readJsonArraySafe<T>(filePath: string, seed: T[], parser: (value: unknown) => T) {
+  await ensureFile(filePath, seed);
+  const raw = await fs.readFile(filePath, "utf8");
+  const parsed = JSON.parse(raw) as unknown[];
+  return parsed.flatMap((value) => {
+    try {
+      return [parser(value)];
+    } catch {
+      return [];
+    }
+  });
+}
+
 async function writeJsonArray<T>(filePath: string, entries: T[]) {
   await ensureDir();
   await fs.writeFile(filePath, JSON.stringify(entries, null, 2), "utf8");
@@ -51,7 +64,7 @@ export async function saveStories(entries: Story[]) {
 }
 
 export async function getRubrics() {
-  return readJsonArray(rubricsFile, [], (value) => rubricSchema.parse(value));
+  return readJsonArraySafe(rubricsFile, [], (value) => rubricSchema.parse(value));
 }
 
 export async function saveRubrics(entries: Rubric[]) {

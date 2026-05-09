@@ -21,10 +21,10 @@ export function RubricStepCard({
   const badge = getRecencyBadge(step.lastValidatedAt);
 
   return (
-    <Card className="overflow-hidden">
+    <Card className="overflow-hidden border-white/80 shadow-float">
       <CardContent className="p-0">
         <button
-          className="flex w-full flex-col gap-5 p-6 text-left transition-colors hover:bg-muted/45"
+          className="flex w-full flex-col gap-5 bg-[linear-gradient(135deg,rgba(255,255,255,0.82),rgba(241,221,214,0.34))] p-6 text-left transition-colors hover:bg-muted/45"
           onClick={() => setExpanded((value) => !value)}
           type="button"
         >
@@ -36,7 +36,7 @@ export function RubricStepCard({
             </div>
             <div className="flex shrink-0 flex-col items-start gap-3 md:items-end">
               <span className={`rounded-full border px-3 py-1 text-xs font-medium ${badge.className}`}>{badge.label}</span>
-              <span className="inline-flex items-center gap-2 text-sm text-slateWarm">
+              <span className="inline-flex items-center gap-2 rounded-full bg-white/80 px-3 py-1 text-sm text-slateWarm">
                 <Users className="h-4 w-4" />
                 {step.contributorCount} contributor{step.contributorCount === 1 ? "" : "s"}
               </span>
@@ -48,7 +48,7 @@ export function RubricStepCard({
           </div>
         </button>
         {expanded ? (
-          <div className="grid gap-4 border-t border-border bg-muted/45 p-6 md:grid-cols-2">
+          <div className="grid gap-4 border-t border-border bg-[linear-gradient(180deg,rgba(244,239,233,0.7),rgba(255,255,255,0.85))] p-6 md:grid-cols-2">
             {supportingStories.map((story) => (
               <StoryCard key={story.id} story={story} compact />
             ))}

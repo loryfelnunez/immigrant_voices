@@ -1,6 +1,16 @@
 import { z } from "zod";
 
 export const DOMAIN = "first-credit-card";
+export const DOMAIN_IDS = [
+  "first-credit-card",
+  "healthcare",
+  "housing",
+  "jobs",
+  "banking",
+  "legal-paperwork"
+] as const;
+
+export const domainSchema = z.enum(DOMAIN_IDS);
 
 export const sourceSchema = z.object({
   id: z.string(),
@@ -17,6 +27,11 @@ export const storySchema = z.object({
   countryOfOrigin: z.string().nullable(),
   arrivalYear: z.number().int().nullable(),
   storyText: z.string(),
+  keyDetails: z.array(z.string()).default([]),
+  mentionedOrganizations: z.array(z.string()).default([]),
+  productsOrServices: z.array(z.string()).default([]),
+  documentsMentioned: z.array(z.string()).default([]),
+  feesOrAmounts: z.array(z.string()).default([]),
   domain: z.string(),
   sourceId: z.string(),
   sourceUrl: z.string().url(),
@@ -28,9 +43,9 @@ export const rubricStepSchema = z.object({
   id: z.string(),
   title: z.string(),
   why: z.string(),
-  sourceStoryIds: z.array(z.string()).min(1),
+  sourceStoryIds: z.array(z.string()).min(2).max(10),
   lastValidatedAt: z.string(),
-  contributorCount: z.number().int().min(1)
+  contributorCount: z.number().int().min(2).max(10)
 });
 
 export const rubricSchema = z.object({
@@ -51,7 +66,12 @@ export const extractedStorySchema = z.discriminatedUnion("shouldInclude", [
     contributorName: z.string(),
     countryOfOrigin: z.string().nullable(),
     arrivalYear: z.number().int().nullable(),
-    storyText: z.string()
+    storyText: z.string(),
+    keyDetails: z.array(z.string()).max(6).default([]),
+    mentionedOrganizations: z.array(z.string()).max(6).default([]),
+    productsOrServices: z.array(z.string()).max(6).default([]),
+    documentsMentioned: z.array(z.string()).max(6).default([]),
+    feesOrAmounts: z.array(z.string()).max(6).default([])
   })
 ]);
 
@@ -61,12 +81,13 @@ export const extractedRubricSchema = z.object({
     z.object({
       title: z.string(),
       why: z.string(),
-      sourceStoryIds: z.array(z.string()).min(2)
+      sourceStoryIds: z.array(z.string()).min(2).max(10)
     })
   )
 });
 
 export const contributeSchema = z.object({
+  domain: domainSchema,
   contributorName: z.string().min(1).max(80),
   countryOfOrigin: z.string().nullable(),
   arrivalYear: z.number().int().min(1900).max(new Date().getFullYear()).nullable(),
@@ -80,3 +101,4 @@ export type RubricStep = z.infer<typeof rubricStepSchema>;
 export type ContributeInput = z.infer<typeof contributeSchema>;
 export type ExtractedStory = z.infer<typeof extractedStorySchema>;
 export type ExtractedRubric = z.infer<typeof extractedRubricSchema>;
+export type DomainId = z.infer<typeof domainSchema>;

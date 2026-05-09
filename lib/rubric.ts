@@ -1,10 +1,15 @@
 import { randomUUID } from "node:crypto";
 
 import { getRubrics, getStories, saveRubrics, upsertById } from "@/lib/data-store";
+import { getDomainDefinition } from "@/lib/domains";
 import { getTogetherClient, getTogetherModel } from "@/lib/together";
 import { extractedRubricSchema, rubricSchema, type Rubric, type Story } from "@/lib/schemas";
 
-function buildRubricPrompt(stories: Story[]) {
+const MIN_RUBRIC_STORIES = 2;
+const MAX_STEP_STORIES = 10;
+
+function buildRubricPrompt(domain: string, stories: Story[]) {
+  const domainDefinition = getDomainDefinition(domain);
   const storyBlock = stories
     .map((story) => {
       return [
@@ -13,19 +18,25 @@ function buildRubricPrompt(stories: Story[]) {
         `Country of origin: ${story.countryOfOrigin ?? "unknown"}`,
         `Arrival year: ${story.arrivalYear ?? "unknown"}`,
         `Submitted at: ${story.submittedAt}`,
-        `Story: ${story.storyText}`
+        `Story: ${story.storyText}`,
+        `Key details: ${story.keyDetails.join(", ") || "none"}`,
+        `Organizations: ${story.mentionedOrganizations.join(", ") || "none"}`,
+        `Products or services: ${story.productsOrServices.join(", ") || "none"}`,
+        `Documents: ${story.documentsMentioned.join(", ") || "none"}`,
+        `Fees or amounts: ${story.feesOrAmounts.join(", ") || "none"}`
       ].join("\n");
     })
     .join("\n\n---\n\n");
 
   return `
-You are extracting a community knowledge rubric from real stories of immigrants who navigated getting their first US credit card.
+You are extracting a community knowledge rubric from real stories of immigrants who navigated ${domainDefinition.label.toLowerCase()} in the United States.
 Read the stories below and produce a structured rubric that captures what these contributors collectively learned.
 
 Rules:
 - Use an imperative title for each step.
 - Explain the why in 1-2 sentences grounded in the stories.
-- Only include steps mentioned by 2 or more contributors.
+- Only include steps independently mentioned by at least 2 contributors.
+- Do not reference more than 10 supporting stories for a single step.
 - Reference the story IDs that support each step.
 - Order steps logically: prerequisites first, then primary path, then optimization.
 - Do not include generic advice that is not clearly supported by the stories.
@@ -59,8 +70,12 @@ function hydrateRubric(domain: string, title: string, steps: Array<{ title: stri
       const supportingStories = step.sourceStoryIds
         .map((storyId) => storyMap.get(storyId))
         .filter((story): story is Story => Boolean(story));
+      const uniqueStoryIds = [...new Set(step.sourceStoryIds)].slice(0, MAX_STEP_STORIES);
+      const uniqueSupportingStories = uniqueStoryIds
+        .map((storyId) => storyMap.get(storyId))
+        .filter((story): story is Story => Boolean(story));
 
-      const lastValidatedAt = supportingStories
+      const lastValidatedAt = uniqueSupportingStories
         .map((story) => story.submittedAt)
         .sort()
         .at(-1) ?? new Date().toISOString();
@@ -69,20 +84,36 @@ function hydrateRubric(domain: string, title: string, steps: Array<{ title: stri
         id: randomUUID(),
         title: step.title,
         why: step.why,
-        sourceStoryIds: [...new Set(step.sourceStoryIds)],
+        sourceStoryIds: uniqueStoryIds,
         lastValidatedAt,
-        contributorCount: new Set(supportingStories.map((story) => story.id)).size
+        contributorCount: new Set(uniqueSupportingStories.map((story) => story.id)).size
       };
     })
   });
 }
 
 function extractFallbackRubric(domain: string, stories: Story[]) {
+  const domainDefinition = getDomainDefinition(domain);
+  if (stories.length < MIN_RUBRIC_STORIES) {
+    throw new Error(`Rubric extraction requires at least ${MIN_RUBRIC_STORIES} stories in ${domainDefinition.label}.`);
+  }
+
+  if (domain !== "first-credit-card") {
+    const storyIds = stories.slice(0, MAX_STEP_STORIES).map((story) => story.id);
+    return hydrateRubric(domain, domainDefinition.rubricTitle, [
+      {
+        title: `Start with the first concrete step people used for ${domainDefinition.label.toLowerCase()}`,
+        why: "Until the model finds stronger repeated patterns, the safest shared lesson is the first move multiple contributors actually took rather than generic advice.",
+        sourceStoryIds: storyIds
+      }
+    ], stories);
+  }
+
   const patterns = [
     {
       title: "Get your SSN or ITIN lined up before you apply",
-      why: "Contributors repeatedly describe identity setup as the thing that prevents dead-end applications. Having the right tax identifier in place made approvals and account setup more straightforward.",
-      matches: [/ssn/i, /\bitin\b/i]
+        why: "Contributors repeatedly describe identity setup as the thing that prevents dead-end applications. Having the right tax identifier in place made approvals and account setup more straightforward.",
+        matches: [/ssn/i, /\bitin\b/i]
     },
     {
       title: "Start with a secured card or another thin-file path",
@@ -112,25 +143,25 @@ function extractFallbackRubric(domain: string, stories: Story[]) {
         pattern.matches.some((regex) => regex.test(story.storyText))
       );
 
-      if (matchingStories.length < 2) {
+      if (matchingStories.length < MIN_RUBRIC_STORIES) {
         return null;
       }
 
       return {
         title: pattern.title,
         why: pattern.why,
-        sourceStoryIds: matchingStories.map((story) => story.id)
+        sourceStoryIds: matchingStories.slice(0, MAX_STEP_STORIES).map((story) => story.id)
       };
     })
     .filter((step): step is NonNullable<typeof step> => Boolean(step));
 
-  return hydrateRubric(domain, "Getting Your First US Credit Card", steps, stories);
+  return hydrateRubric(domain, domainDefinition.rubricTitle, steps, stories);
 }
 
 export async function extractRubric(domain: string) {
   const stories = (await getStories()).filter((story) => story.domain === domain);
-  if (stories.length < 2) {
-    throw new Error("At least two stories are required to extract a rubric.");
+  if (stories.length < MIN_RUBRIC_STORIES) {
+    throw new Error(`At least ${MIN_RUBRIC_STORIES} stories are required to extract a rubric.`);
   }
 
   let rubric: Rubric;
@@ -147,7 +178,7 @@ export async function extractRubric(domain: string) {
         },
         {
           role: "user",
-          content: buildRubricPrompt(stories)
+          content: buildRubricPrompt(domain, stories)
         }
       ]
     });
