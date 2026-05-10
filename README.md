@@ -2,6 +2,8 @@
 
 Immigrant Voices is a Next.js app that turns immigrant stories into reusable community knowledge. It collects first-person stories about common newcomer challenges in the US, structures those stories into normalized records, and then generates practical learnings by topic.
 
+This project was built for the **Immigration Hackathon NYC**.
+
 The live deployment is on Vercel:
 `https://immigrant-voices.vercel.app`
 
